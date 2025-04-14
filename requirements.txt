@@ -1,0 +1,7 @@
+# Core dependencies
+rich
+huggingface_hub
+
+# Add other dependencies as needed, e.g.:
+# requests
+# python-dotenv
