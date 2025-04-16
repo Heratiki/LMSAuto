@@ -1,0 +1,1 @@
+# Shared components (e.g., context object)
