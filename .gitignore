@@ -2,3 +2,12 @@ memory-bank/
 .vscode
 .roomodes
 WORKSPACE-README.md
+/venv
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+*.orig
+*.rej
+*.diff
