@@ -11,3 +11,4 @@ __pycache__/
 *.orig
 *.rej
 *.diff
+.backup
