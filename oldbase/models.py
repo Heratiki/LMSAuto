@@ -1,6 +1,7 @@
 """Classes for interacting with the LM Studio API."""
 
 import logging
+import requests
 from typing import Dict, List, Optional, Any
 
 from .utils import load_json, save_json
@@ -29,9 +30,37 @@ class LMStudioAPI:
                 - path: Local path to model
                 - type: Model type (if available)
         """
-        # TODO: Implement actual API call once API details are known
         self.logger.info("Discovering models via LM Studio API")
-        return []
+        
+        try:
+            response = requests.get(f"{self.api_url}/v1/models", timeout=10)
+            response.raise_for_status()
+            
+            data = response.json()
+            models = []
+            
+            for model_data in data.get("data", []):
+                model_info = {
+                    "name": model_data.get("id", "unknown"),
+                    "path": model_data.get("id", "unknown"),  # LM Studio uses ID as path
+                    "type": model_data.get("type", "unknown"),
+                    "state": model_data.get("state", "unknown"),
+                    "max_context_length": model_data.get("max_context_length", 0),
+                    "quantization": model_data.get("quantization", "unknown"),
+                    "arch": model_data.get("arch", "unknown"),
+                    "publisher": model_data.get("publisher", "unknown")
+                }
+                models.append(model_info)
+            
+            self.logger.info(f"Discovered {len(models)} models")
+            return models
+            
+        except requests.exceptions.RequestException as e:
+            self.logger.error(f"Failed to connect to LM Studio API at {self.api_url}: {e}")
+            return []
+        except Exception as e:
+            self.logger.error(f"Error discovering models: {e}")
+            return []
 
     def get_model_settings(self, model_name: str) -> Dict[str, Any]:
         """Get current settings for a specific model.

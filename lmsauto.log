@@ -1,0 +1,561 @@
+2025-07-04 10:44:35,494 - __main__ - INFO - Starting LMSAuto...
+2025-07-04 10:44:35,494 - src.models - INFO - Discovering models via LM Studio API
+2025-07-04 10:44:35,494 - __main__ - WARNING - No models discovered via LM Studio API. Exiting.
+2025-07-04 10:47:53,402 - __main__ - INFO - Starting LMSAuto...
+2025-07-04 10:47:53,402 - src.models - INFO - Discovering models via LM Studio API
+2025-07-04 10:47:53,406 - src.models - INFO - Discovered 22 models
+2025-07-04 10:47:53,407 - __main__ - INFO - Discovered models: ['qwen2.5-coder-7b-instruct', 'text-embedding-nomic-embed-text-v1.5', 'gemma-3-4b-it', 'gemma-3-1b-it', 'quasar-3.0-instract-v2', 'qwen2-0.5b-instruct', 'starcoder2-3b', 'deepseek-coder-1.3b-typescript', 'wizardcoder-python-13b-v1.0', 'ml4se23_g1_wizardcoder-scot-1b-v1.0', 'starcoder2-3b-instruct', 'starcoder2-15b', 'qwen2.5-coder-32b-instruct', 'deepseek-r1-distill-qwen-1.5b', 'qwen2.5-coder-0.5b-instruct', 'olympiccoder-7b', 'deepseek-r1-distill-llama-8b', 'deepseek-r1-distill-qwen-7b', 'openai-community_-_gpt2-xl', 'qwen2.5-coder-3b-instruct', 'codellama-7b-instruct', 'stable-code-instruct-3b']
+2025-07-04 10:47:53,407 - __main__ - INFO - Processing model: qwen2.5-coder-7b-instruct
+2025-07-04 10:47:53,407 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-7b-instruct
+2025-07-04 10:47:53,490 - src.settings - INFO - No generation_config.json found for qwen2.5-coder-7b-instruct.
+2025-07-04 10:47:53,531 - src.settings - INFO - No config.json found for qwen2.5-coder-7b-instruct.
+2025-07-04 10:47:53,575 - src.settings - INFO - No README.md found for qwen2.5-coder-7b-instruct.
+2025-07-04 10:47:53,575 - src.settings - WARNING - Could not find or parse optimal settings for model: qwen2.5-coder-7b-instruct
+2025-07-04 10:47:53,576 - __main__ - WARNING - Could not find optimal settings for qwen2.5-coder-7b-instruct
+2025-07-04 10:47:53,576 - __main__ - INFO - Processing model: text-embedding-nomic-embed-text-v1.5
+2025-07-04 10:47:53,576 - src.settings - INFO - Searching for optimal settings for model: text-embedding-nomic-embed-text-v1.5
+2025-07-04 10:47:53,620 - src.settings - INFO - No generation_config.json found for text-embedding-nomic-embed-text-v1.5.
+2025-07-04 10:47:53,663 - src.settings - INFO - No config.json found for text-embedding-nomic-embed-text-v1.5.
+2025-07-04 10:47:53,708 - src.settings - INFO - No README.md found for text-embedding-nomic-embed-text-v1.5.
+2025-07-04 10:47:53,708 - src.settings - WARNING - Could not find or parse optimal settings for model: text-embedding-nomic-embed-text-v1.5
+2025-07-04 10:47:53,708 - __main__ - WARNING - Could not find optimal settings for text-embedding-nomic-embed-text-v1.5
+2025-07-04 10:47:53,708 - __main__ - INFO - Processing model: gemma-3-4b-it
+2025-07-04 10:47:53,708 - src.settings - INFO - Searching for optimal settings for model: gemma-3-4b-it
+2025-07-04 10:47:53,835 - src.settings - INFO - No generation_config.json found for gemma-3-4b-it.
+2025-07-04 10:47:53,876 - src.settings - INFO - No config.json found for gemma-3-4b-it.
+2025-07-04 10:47:53,945 - src.settings - INFO - No README.md found for gemma-3-4b-it.
+2025-07-04 10:47:53,945 - src.settings - WARNING - Could not find or parse optimal settings for model: gemma-3-4b-it
+2025-07-04 10:47:53,945 - __main__ - WARNING - Could not find optimal settings for gemma-3-4b-it
+2025-07-04 10:47:53,945 - __main__ - INFO - Processing model: gemma-3-1b-it
+2025-07-04 10:47:53,945 - src.settings - INFO - Searching for optimal settings for model: gemma-3-1b-it
+2025-07-04 10:47:53,995 - src.settings - INFO - No generation_config.json found for gemma-3-1b-it.
+2025-07-04 10:47:54,042 - src.settings - INFO - No config.json found for gemma-3-1b-it.
+2025-07-04 10:47:54,087 - src.settings - INFO - No README.md found for gemma-3-1b-it.
+2025-07-04 10:47:54,088 - src.settings - WARNING - Could not find or parse optimal settings for model: gemma-3-1b-it
+2025-07-04 10:47:54,088 - __main__ - WARNING - Could not find optimal settings for gemma-3-1b-it
+2025-07-04 10:47:54,088 - __main__ - INFO - Processing model: quasar-3.0-instract-v2
+2025-07-04 10:47:54,088 - src.settings - INFO - Searching for optimal settings for model: quasar-3.0-instract-v2
+2025-07-04 10:47:54,133 - src.settings - INFO - No generation_config.json found for quasar-3.0-instract-v2.
+2025-07-04 10:47:54,174 - src.settings - INFO - No config.json found for quasar-3.0-instract-v2.
+2025-07-04 10:47:54,218 - src.settings - INFO - No README.md found for quasar-3.0-instract-v2.
+2025-07-04 10:47:54,218 - src.settings - WARNING - Could not find or parse optimal settings for model: quasar-3.0-instract-v2
+2025-07-04 10:47:54,218 - __main__ - WARNING - Could not find optimal settings for quasar-3.0-instract-v2
+2025-07-04 10:47:54,218 - __main__ - INFO - Processing model: qwen2-0.5b-instruct
+2025-07-04 10:47:54,219 - src.settings - INFO - Searching for optimal settings for model: qwen2-0.5b-instruct
+2025-07-04 10:47:54,258 - src.settings - INFO - No generation_config.json found for qwen2-0.5b-instruct.
+2025-07-04 10:47:54,297 - src.settings - INFO - No config.json found for qwen2-0.5b-instruct.
+2025-07-04 10:47:54,339 - src.settings - INFO - No README.md found for qwen2-0.5b-instruct.
+2025-07-04 10:47:54,339 - src.settings - WARNING - Could not find or parse optimal settings for model: qwen2-0.5b-instruct
+2025-07-04 10:47:54,339 - __main__ - WARNING - Could not find optimal settings for qwen2-0.5b-instruct
+2025-07-04 10:47:54,339 - __main__ - INFO - Processing model: starcoder2-3b
+2025-07-04 10:47:54,339 - src.settings - INFO - Searching for optimal settings for model: starcoder2-3b
+2025-07-04 10:47:54,383 - src.settings - INFO - No generation_config.json found for starcoder2-3b.
+2025-07-04 10:47:54,423 - src.settings - INFO - No config.json found for starcoder2-3b.
+2025-07-04 10:47:54,462 - src.settings - INFO - No README.md found for starcoder2-3b.
+2025-07-04 10:47:54,462 - src.settings - WARNING - Could not find or parse optimal settings for model: starcoder2-3b
+2025-07-04 10:47:54,463 - __main__ - WARNING - Could not find optimal settings for starcoder2-3b
+2025-07-04 10:47:54,463 - __main__ - INFO - Processing model: deepseek-coder-1.3b-typescript
+2025-07-04 10:47:54,463 - src.settings - INFO - Searching for optimal settings for model: deepseek-coder-1.3b-typescript
+2025-07-04 10:47:54,504 - src.settings - INFO - No generation_config.json found for deepseek-coder-1.3b-typescript.
+2025-07-04 10:47:54,549 - src.settings - INFO - No config.json found for deepseek-coder-1.3b-typescript.
+2025-07-04 10:47:54,595 - src.settings - INFO - No README.md found for deepseek-coder-1.3b-typescript.
+2025-07-04 10:47:54,595 - src.settings - WARNING - Could not find or parse optimal settings for model: deepseek-coder-1.3b-typescript
+2025-07-04 10:47:54,595 - __main__ - WARNING - Could not find optimal settings for deepseek-coder-1.3b-typescript
+2025-07-04 10:47:54,595 - __main__ - INFO - Processing model: wizardcoder-python-13b-v1.0
+2025-07-04 10:47:54,595 - src.settings - INFO - Searching for optimal settings for model: wizardcoder-python-13b-v1.0
+2025-07-04 10:47:54,633 - src.settings - INFO - No generation_config.json found for wizardcoder-python-13b-v1.0.
+2025-07-04 10:47:54,675 - src.settings - INFO - No config.json found for wizardcoder-python-13b-v1.0.
+2025-07-04 10:47:54,718 - src.settings - INFO - No README.md found for wizardcoder-python-13b-v1.0.
+2025-07-04 10:47:54,718 - src.settings - WARNING - Could not find or parse optimal settings for model: wizardcoder-python-13b-v1.0
+2025-07-04 10:47:54,718 - __main__ - WARNING - Could not find optimal settings for wizardcoder-python-13b-v1.0
+2025-07-04 10:47:54,718 - __main__ - INFO - Processing model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:47:54,719 - src.settings - INFO - Searching for optimal settings for model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:47:54,761 - src.settings - INFO - No generation_config.json found for ml4se23_g1_wizardcoder-scot-1b-v1.0.
+2025-07-04 10:47:54,807 - src.settings - INFO - No config.json found for ml4se23_g1_wizardcoder-scot-1b-v1.0.
+2025-07-04 10:47:54,846 - src.settings - INFO - No README.md found for ml4se23_g1_wizardcoder-scot-1b-v1.0.
+2025-07-04 10:47:54,846 - src.settings - WARNING - Could not find or parse optimal settings for model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:47:54,847 - __main__ - WARNING - Could not find optimal settings for ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:47:54,847 - __main__ - INFO - Processing model: starcoder2-3b-instruct
+2025-07-04 10:47:54,847 - src.settings - INFO - Searching for optimal settings for model: starcoder2-3b-instruct
+2025-07-04 10:47:54,917 - src.settings - INFO - No generation_config.json found for starcoder2-3b-instruct.
+2025-07-04 10:47:54,963 - src.settings - INFO - No config.json found for starcoder2-3b-instruct.
+2025-07-04 10:47:55,007 - src.settings - INFO - No README.md found for starcoder2-3b-instruct.
+2025-07-04 10:47:55,007 - src.settings - WARNING - Could not find or parse optimal settings for model: starcoder2-3b-instruct
+2025-07-04 10:47:55,007 - __main__ - WARNING - Could not find optimal settings for starcoder2-3b-instruct
+2025-07-04 10:47:55,007 - __main__ - INFO - Processing model: starcoder2-15b
+2025-07-04 10:47:55,007 - src.settings - INFO - Searching for optimal settings for model: starcoder2-15b
+2025-07-04 10:47:55,048 - src.settings - INFO - No generation_config.json found for starcoder2-15b.
+2025-07-04 10:47:55,091 - src.settings - INFO - No config.json found for starcoder2-15b.
+2025-07-04 10:47:55,133 - src.settings - INFO - No README.md found for starcoder2-15b.
+2025-07-04 10:47:55,133 - src.settings - WARNING - Could not find or parse optimal settings for model: starcoder2-15b
+2025-07-04 10:47:55,133 - __main__ - WARNING - Could not find optimal settings for starcoder2-15b
+2025-07-04 10:47:55,133 - __main__ - INFO - Processing model: qwen2.5-coder-32b-instruct
+2025-07-04 10:47:55,133 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-32b-instruct
+2025-07-04 10:47:55,173 - src.settings - INFO - No generation_config.json found for qwen2.5-coder-32b-instruct.
+2025-07-04 10:47:55,214 - src.settings - INFO - No config.json found for qwen2.5-coder-32b-instruct.
+2025-07-04 10:47:55,256 - src.settings - INFO - No README.md found for qwen2.5-coder-32b-instruct.
+2025-07-04 10:47:55,256 - src.settings - WARNING - Could not find or parse optimal settings for model: qwen2.5-coder-32b-instruct
+2025-07-04 10:47:55,256 - __main__ - WARNING - Could not find optimal settings for qwen2.5-coder-32b-instruct
+2025-07-04 10:47:55,256 - __main__ - INFO - Processing model: deepseek-r1-distill-qwen-1.5b
+2025-07-04 10:47:55,257 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-qwen-1.5b
+2025-07-04 10:47:55,298 - src.settings - INFO - No generation_config.json found for deepseek-r1-distill-qwen-1.5b.
+2025-07-04 10:47:55,340 - src.settings - INFO - No config.json found for deepseek-r1-distill-qwen-1.5b.
+2025-07-04 10:47:55,383 - src.settings - INFO - No README.md found for deepseek-r1-distill-qwen-1.5b.
+2025-07-04 10:47:55,384 - src.settings - WARNING - Could not find or parse optimal settings for model: deepseek-r1-distill-qwen-1.5b
+2025-07-04 10:47:55,384 - __main__ - WARNING - Could not find optimal settings for deepseek-r1-distill-qwen-1.5b
+2025-07-04 10:47:55,384 - __main__ - INFO - Processing model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:47:55,384 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:47:55,428 - src.settings - INFO - No generation_config.json found for qwen2.5-coder-0.5b-instruct.
+2025-07-04 10:47:55,470 - src.settings - INFO - No config.json found for qwen2.5-coder-0.5b-instruct.
+2025-07-04 10:47:55,518 - src.settings - INFO - No README.md found for qwen2.5-coder-0.5b-instruct.
+2025-07-04 10:47:55,518 - src.settings - WARNING - Could not find or parse optimal settings for model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:47:55,518 - __main__ - WARNING - Could not find optimal settings for qwen2.5-coder-0.5b-instruct
+2025-07-04 10:47:55,518 - __main__ - INFO - Processing model: olympiccoder-7b
+2025-07-04 10:47:55,518 - src.settings - INFO - Searching for optimal settings for model: olympiccoder-7b
+2025-07-04 10:47:55,557 - src.settings - INFO - No generation_config.json found for olympiccoder-7b.
+2025-07-04 10:47:55,600 - src.settings - INFO - No config.json found for olympiccoder-7b.
+2025-07-04 10:47:55,645 - src.settings - INFO - No README.md found for olympiccoder-7b.
+2025-07-04 10:47:55,645 - src.settings - WARNING - Could not find or parse optimal settings for model: olympiccoder-7b
+2025-07-04 10:47:55,645 - __main__ - WARNING - Could not find optimal settings for olympiccoder-7b
+2025-07-04 10:47:55,645 - __main__ - INFO - Processing model: deepseek-r1-distill-llama-8b
+2025-07-04 10:47:55,645 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-llama-8b
+2025-07-04 10:47:55,687 - src.settings - INFO - No generation_config.json found for deepseek-r1-distill-llama-8b.
+2025-07-04 10:47:55,726 - src.settings - INFO - No config.json found for deepseek-r1-distill-llama-8b.
+2025-07-04 10:47:55,771 - src.settings - INFO - No README.md found for deepseek-r1-distill-llama-8b.
+2025-07-04 10:47:55,771 - src.settings - WARNING - Could not find or parse optimal settings for model: deepseek-r1-distill-llama-8b
+2025-07-04 10:47:55,771 - __main__ - WARNING - Could not find optimal settings for deepseek-r1-distill-llama-8b
+2025-07-04 10:47:55,771 - __main__ - INFO - Processing model: deepseek-r1-distill-qwen-7b
+2025-07-04 10:47:55,771 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-qwen-7b
+2025-07-04 10:47:55,813 - src.settings - INFO - No generation_config.json found for deepseek-r1-distill-qwen-7b.
+2025-07-04 10:47:55,856 - src.settings - INFO - No config.json found for deepseek-r1-distill-qwen-7b.
+2025-07-04 10:47:55,898 - src.settings - INFO - No README.md found for deepseek-r1-distill-qwen-7b.
+2025-07-04 10:47:55,899 - src.settings - WARNING - Could not find or parse optimal settings for model: deepseek-r1-distill-qwen-7b
+2025-07-04 10:47:55,899 - __main__ - WARNING - Could not find optimal settings for deepseek-r1-distill-qwen-7b
+2025-07-04 10:47:55,899 - __main__ - INFO - Processing model: openai-community_-_gpt2-xl
+2025-07-04 10:47:55,899 - src.settings - INFO - Searching for optimal settings for model: openai-community_-_gpt2-xl
+2025-07-04 10:47:55,943 - src.settings - INFO - No generation_config.json found for openai-community_-_gpt2-xl.
+2025-07-04 10:47:55,991 - src.settings - INFO - No config.json found for openai-community_-_gpt2-xl.
+2025-07-04 10:47:56,032 - src.settings - INFO - No README.md found for openai-community_-_gpt2-xl.
+2025-07-04 10:47:56,033 - src.settings - WARNING - Could not find or parse optimal settings for model: openai-community_-_gpt2-xl
+2025-07-04 10:47:56,033 - __main__ - WARNING - Could not find optimal settings for openai-community_-_gpt2-xl
+2025-07-04 10:47:56,033 - __main__ - INFO - Processing model: qwen2.5-coder-3b-instruct
+2025-07-04 10:47:56,033 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-3b-instruct
+2025-07-04 10:47:56,075 - src.settings - INFO - No generation_config.json found for qwen2.5-coder-3b-instruct.
+2025-07-04 10:47:56,117 - src.settings - INFO - No config.json found for qwen2.5-coder-3b-instruct.
+2025-07-04 10:47:56,157 - src.settings - INFO - No README.md found for qwen2.5-coder-3b-instruct.
+2025-07-04 10:47:56,158 - src.settings - WARNING - Could not find or parse optimal settings for model: qwen2.5-coder-3b-instruct
+2025-07-04 10:47:56,158 - __main__ - WARNING - Could not find optimal settings for qwen2.5-coder-3b-instruct
+2025-07-04 10:47:56,158 - __main__ - INFO - Processing model: codellama-7b-instruct
+2025-07-04 10:47:56,158 - src.settings - INFO - Searching for optimal settings for model: codellama-7b-instruct
+2025-07-04 10:47:56,200 - src.settings - INFO - No generation_config.json found for codellama-7b-instruct.
+2025-07-04 10:47:56,244 - src.settings - INFO - No config.json found for codellama-7b-instruct.
+2025-07-04 10:47:56,285 - src.settings - INFO - No README.md found for codellama-7b-instruct.
+2025-07-04 10:47:56,285 - src.settings - WARNING - Could not find or parse optimal settings for model: codellama-7b-instruct
+2025-07-04 10:47:56,285 - __main__ - WARNING - Could not find optimal settings for codellama-7b-instruct
+2025-07-04 10:47:56,285 - __main__ - INFO - Processing model: stable-code-instruct-3b
+2025-07-04 10:47:56,285 - src.settings - INFO - Searching for optimal settings for model: stable-code-instruct-3b
+2025-07-04 10:47:56,332 - src.settings - INFO - No generation_config.json found for stable-code-instruct-3b.
+2025-07-04 10:47:56,376 - src.settings - INFO - No config.json found for stable-code-instruct-3b.
+2025-07-04 10:47:56,416 - src.settings - INFO - No README.md found for stable-code-instruct-3b.
+2025-07-04 10:47:56,416 - src.settings - WARNING - Could not find or parse optimal settings for model: stable-code-instruct-3b
+2025-07-04 10:47:56,416 - __main__ - WARNING - Could not find optimal settings for stable-code-instruct-3b
+2025-07-04 10:47:56,416 - __main__ - INFO - Settings search complete. Profiles saved.
+2025-07-04 10:47:56,416 - __main__ - INFO - Next steps: Implement Rich UI and settings application logic.
+2025-07-04 10:49:48,620 - __main__ - INFO - Starting LMSAuto...
+2025-07-04 10:49:48,620 - src.models - INFO - Discovering models via LM Studio API
+2025-07-04 10:49:48,624 - src.models - INFO - Discovered 22 models
+2025-07-04 10:49:48,625 - __main__ - INFO - Discovered models: ['qwen2.5-coder-7b-instruct', 'text-embedding-nomic-embed-text-v1.5', 'gemma-3-4b-it', 'gemma-3-1b-it', 'quasar-3.0-instract-v2', 'qwen2-0.5b-instruct', 'starcoder2-3b', 'deepseek-coder-1.3b-typescript', 'wizardcoder-python-13b-v1.0', 'ml4se23_g1_wizardcoder-scot-1b-v1.0', 'starcoder2-3b-instruct', 'starcoder2-15b', 'qwen2.5-coder-32b-instruct', 'deepseek-r1-distill-qwen-1.5b', 'qwen2.5-coder-0.5b-instruct', 'olympiccoder-7b', 'deepseek-r1-distill-llama-8b', 'deepseek-r1-distill-qwen-7b', 'openai-community_-_gpt2-xl', 'qwen2.5-coder-3b-instruct', 'codellama-7b-instruct', 'stable-code-instruct-3b']
+2025-07-04 10:49:48,625 - __main__ - INFO - Processing model: qwen2.5-coder-7b-instruct
+2025-07-04 10:49:48,625 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-7b-instruct
+2025-07-04 10:49:48,625 - src.settings - INFO - Mapped 'qwen2.5-coder-7b-instruct' to 'Qwen/Qwen2.5-Coder-7B-Instruct'
+2025-07-04 10:49:48,871 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-7B-Instruct/snapshots/c03e6d358207e414f1eca0bb1891e29f1db0e242/generation_config.json
+2025-07-04 10:49:48,872 - src.settings - INFO - Extracted generation settings: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1}
+2025-07-04 10:49:49,077 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-7B-Instruct/snapshots/c03e6d358207e414f1eca0bb1891e29f1db0e242/config.json
+2025-07-04 10:49:49,077 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151645, 'hidden_act': 'silu', 'hidden_size': 3584, 'initializer_range': 0.02, 'intermediate_size': 18944, 'max_position_embeddings': 32768, 'max_window_layers': 28, 'model_type': 'qwen2', 'num_attention_heads': 28, 'num_hidden_layers': 28, 'num_key_value_heads': 4, 'rms_norm_eps': 1e-06, 'rope_theta': 1000000.0, 'sliding_window': 131072, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.44.0', 'use_cache': True, 'use_sliding_window': False, 'vocab_size': 152064}
+2025-07-04 10:49:49,077 - src.settings - INFO - Found optimal settings for qwen2.5-coder-7b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:49:49,077 - __main__ - INFO - Found potential optimal settings for qwen2.5-coder-7b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:49:49,077 - src.models - INFO - Saving profile for model qwen2.5-coder-7b-instruct to profiles/qwen2.5-coder-7b-instruct.json
+2025-07-04 10:49:49,078 - __main__ - INFO - Processing model: text-embedding-nomic-embed-text-v1.5
+2025-07-04 10:49:49,078 - src.settings - INFO - Searching for optimal settings for model: text-embedding-nomic-embed-text-v1.5
+2025-07-04 10:49:49,078 - src.settings - INFO - Mapped 'text-embedding-nomic-embed-text-v1.5' to 'nomic-ai/nomic-embed-text-v1.5'
+2025-07-04 10:49:49,134 - src.settings - INFO - No generation_config.json found for nomic-ai/nomic-embed-text-v1.5.
+2025-07-04 10:49:49,418 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--nomic-ai--nomic-embed-text-v1.5/snapshots/a03db6748c80237063eb0546ac6b627eca2318cb/config.json
+2025-07-04 10:49:49,419 - src.settings - INFO - Extracted config settings: {'activation_function': 'swiglu', 'architectures': ['NomicBertModel'], 'attn_pdrop': 0.0, 'auto_map': {'AutoConfig': 'nomic-ai/nomic-bert-2048--configuration_hf_nomic_bert.NomicBertConfig', 'AutoModel': 'nomic-ai/nomic-bert-2048--modeling_hf_nomic_bert.NomicBertModel', 'AutoModelForMaskedLM': 'nomic-ai/nomic-bert-2048--modeling_hf_nomic_bert.NomicBertForPreTraining'}, 'bos_token_id': None, 'causal': False, 'dense_seq_output': True, 'embd_pdrop': 0.0, 'eos_token_id': None, 'fused_bias_fc': True, 'fused_dropout_add_ln': True, 'initializer_range': 0.02, 'layer_norm_epsilon': 1e-12, 'max_trained_positions': 2048, 'mlp_fc1_bias': False, 'mlp_fc2_bias': False, 'model_type': 'nomic_bert', 'n_embd': 768, 'n_head': 12, 'n_inner': 3072, 'n_layer': 12, 'n_positions': 8192, 'pad_vocab_size_multiple': 64, 'parallel_block': False, 'parallel_block_tied_norm': False, 'prenorm': False, 'qkv_proj_bias': False, 'reorder_and_upcast_attn': False, 'resid_pdrop': 0.0, 'rotary_emb_base': 1000, 'rotary_emb_fraction': 1.0, 'rotary_emb_interleaved': False, 'rotary_emb_scale_base': None, 'rotary_scaling_factor': None, 'scale_attn_by_inverse_layer_idx': False, 'scale_attn_weights': True, 'summary_activation': None, 'summary_first_dropout': 0.0, 'summary_proj_to_labels': True, 'summary_type': 'cls_index', 'summary_use_proj': True, 'torch_dtype': 'float32', 'transformers_version': '4.37.2', 'type_vocab_size': 2, 'use_cache': True, 'use_flash_attn': True, 'use_rms_norm': False, 'use_xentropy': True, 'vocab_size': 30528}
+2025-07-04 10:49:49,419 - src.settings - INFO - Found optimal settings for text-embedding-nomic-embed-text-v1.5: {'model_type': 'nomic_bert', 'vocab_size': 30528}
+2025-07-04 10:49:49,419 - __main__ - INFO - Found potential optimal settings for text-embedding-nomic-embed-text-v1.5: {'model_type': 'nomic_bert', 'vocab_size': 30528}
+2025-07-04 10:49:49,419 - src.models - INFO - Saving profile for model text-embedding-nomic-embed-text-v1.5 to profiles/text-embedding-nomic-embed-text-v1.5.json
+2025-07-04 10:49:49,419 - __main__ - INFO - Processing model: gemma-3-4b-it
+2025-07-04 10:49:49,419 - src.settings - INFO - Searching for optimal settings for model: gemma-3-4b-it
+2025-07-04 10:49:49,419 - src.settings - INFO - Mapped 'gemma-3-4b-it' to 'google/gemma-2-4b-it'
+2025-07-04 10:49:49,471 - src.settings - INFO - No generation_config.json found for google/gemma-2-4b-it.
+2025-07-04 10:49:49,524 - src.settings - INFO - No config.json found for google/gemma-2-4b-it.
+2025-07-04 10:49:49,524 - src.settings - WARNING - Could not find or parse optimal settings for model: gemma-3-4b-it
+2025-07-04 10:49:49,524 - __main__ - WARNING - Could not find optimal settings for gemma-3-4b-it
+2025-07-04 10:49:49,524 - __main__ - INFO - Processing model: gemma-3-1b-it
+2025-07-04 10:49:49,524 - src.settings - INFO - Searching for optimal settings for model: gemma-3-1b-it
+2025-07-04 10:49:49,524 - src.settings - INFO - Mapped 'gemma-3-1b-it' to 'google/gemma-2-1b-it'
+2025-07-04 10:49:49,577 - src.settings - INFO - No generation_config.json found for google/gemma-2-1b-it.
+2025-07-04 10:49:49,631 - src.settings - INFO - No config.json found for google/gemma-2-1b-it.
+2025-07-04 10:49:49,631 - src.settings - WARNING - Could not find or parse optimal settings for model: gemma-3-1b-it
+2025-07-04 10:49:49,631 - __main__ - WARNING - Could not find optimal settings for gemma-3-1b-it
+2025-07-04 10:49:49,631 - __main__ - INFO - Processing model: quasar-3.0-instract-v2
+2025-07-04 10:49:49,631 - src.settings - INFO - Searching for optimal settings for model: quasar-3.0-instract-v2
+2025-07-04 10:49:49,631 - src.settings - WARNING - No mapping found for 'quasar-3.0-instract-v2', trying original name
+2025-07-04 10:49:49,686 - src.settings - INFO - No generation_config.json found for quasar-3.0-instract-v2.
+2025-07-04 10:49:49,739 - src.settings - INFO - No config.json found for quasar-3.0-instract-v2.
+2025-07-04 10:49:49,739 - src.settings - WARNING - Could not find or parse optimal settings for model: quasar-3.0-instract-v2
+2025-07-04 10:49:49,739 - __main__ - WARNING - Could not find optimal settings for quasar-3.0-instract-v2
+2025-07-04 10:49:49,739 - __main__ - INFO - Processing model: qwen2-0.5b-instruct
+2025-07-04 10:49:49,739 - src.settings - INFO - Searching for optimal settings for model: qwen2-0.5b-instruct
+2025-07-04 10:49:49,739 - src.settings - INFO - Mapped 'qwen2-0.5b-instruct' to 'Qwen/Qwen2-0.5B-Instruct'
+2025-07-04 10:49:49,920 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d/generation_config.json
+2025-07-04 10:49:49,920 - src.settings - INFO - Extracted generation settings: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1}
+2025-07-04 10:49:50,109 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d/config.json
+2025-07-04 10:49:50,109 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151645, 'hidden_act': 'silu', 'hidden_size': 896, 'initializer_range': 0.02, 'intermediate_size': 4864, 'max_position_embeddings': 32768, 'max_window_layers': 24, 'model_type': 'qwen2', 'num_attention_heads': 14, 'num_hidden_layers': 24, 'num_key_value_heads': 2, 'rms_norm_eps': 1e-06, 'rope_theta': 1000000.0, 'sliding_window': 32768, 'tie_word_embeddings': True, 'torch_dtype': 'bfloat16', 'transformers_version': '4.40.1', 'use_cache': True, 'use_sliding_window': False, 'vocab_size': 151936}
+2025-07-04 10:49:50,110 - src.settings - INFO - Found optimal settings for qwen2-0.5b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:49:50,110 - __main__ - INFO - Found potential optimal settings for qwen2-0.5b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:49:50,110 - src.models - INFO - Saving profile for model qwen2-0.5b-instruct to profiles/qwen2-0.5b-instruct.json
+2025-07-04 10:49:50,111 - __main__ - INFO - Processing model: starcoder2-3b
+2025-07-04 10:49:50,111 - src.settings - INFO - Searching for optimal settings for model: starcoder2-3b
+2025-07-04 10:49:50,111 - src.settings - INFO - Mapped 'starcoder2-3b' to 'bigcode/starcoder2-3b'
+2025-07-04 10:49:50,165 - src.settings - INFO - No generation_config.json found for bigcode/starcoder2-3b.
+2025-07-04 10:49:50,345 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--bigcode--starcoder2-3b/snapshots/733247c55e3f73af49ce8e9c7949bf14af205928/config.json
+2025-07-04 10:49:50,345 - src.settings - INFO - Extracted config settings: {'architectures': ['Starcoder2ForCausalLM'], 'attention_dropout': 0.1, 'residual_dropout': 0.1, 'embedding_dropout': 0.1, 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'gelu_pytorch_tanh', 'hidden_size': 3072, 'initializer_range': 0.018042, 'intermediate_size': 12288, 'max_position_embeddings': 16384, 'mlp_type': 'default', 'model_type': 'starcoder2', 'norm_epsilon': 1e-05, 'norm_type': 'layer_norm', 'num_attention_heads': 24, 'num_hidden_layers': 30, 'num_key_value_heads': 2, 'rope_theta': 999999.4420358813, 'sliding_window': 4096, 'transformers_version': '4.37.0.dev0', 'use_bias': True, 'use_cache': True, 'vocab_size': 49152}
+2025-07-04 10:49:50,346 - src.settings - INFO - Found optimal settings for starcoder2-3b: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:49:50,346 - __main__ - INFO - Found potential optimal settings for starcoder2-3b: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:49:50,346 - src.models - INFO - Saving profile for model starcoder2-3b to profiles/starcoder2-3b.json
+2025-07-04 10:49:50,346 - __main__ - INFO - Processing model: deepseek-coder-1.3b-typescript
+2025-07-04 10:49:50,346 - src.settings - INFO - Searching for optimal settings for model: deepseek-coder-1.3b-typescript
+2025-07-04 10:49:50,346 - src.settings - INFO - Mapped 'deepseek-coder-1.3b-typescript' to 'deepseek-ai/deepseek-coder-1.3b-typescript'
+2025-07-04 10:49:50,401 - src.settings - INFO - No generation_config.json found for deepseek-ai/deepseek-coder-1.3b-typescript.
+2025-07-04 10:49:50,452 - src.settings - INFO - No config.json found for deepseek-ai/deepseek-coder-1.3b-typescript.
+2025-07-04 10:49:50,453 - src.settings - WARNING - Could not find or parse optimal settings for model: deepseek-coder-1.3b-typescript
+2025-07-04 10:49:50,453 - __main__ - WARNING - Could not find optimal settings for deepseek-coder-1.3b-typescript
+2025-07-04 10:49:50,453 - __main__ - INFO - Processing model: wizardcoder-python-13b-v1.0
+2025-07-04 10:49:50,453 - src.settings - INFO - Searching for optimal settings for model: wizardcoder-python-13b-v1.0
+2025-07-04 10:49:50,454 - src.settings - WARNING - No mapping found for 'wizardcoder-python-13b-v1.0', trying original name
+2025-07-04 10:49:50,506 - src.settings - INFO - No generation_config.json found for wizardcoder-python-13b-v1.0.
+2025-07-04 10:49:50,559 - src.settings - INFO - No config.json found for wizardcoder-python-13b-v1.0.
+2025-07-04 10:49:50,559 - src.settings - WARNING - Could not find or parse optimal settings for model: wizardcoder-python-13b-v1.0
+2025-07-04 10:49:50,559 - __main__ - WARNING - Could not find optimal settings for wizardcoder-python-13b-v1.0
+2025-07-04 10:49:50,559 - __main__ - INFO - Processing model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:49:50,559 - src.settings - INFO - Searching for optimal settings for model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:49:50,560 - src.settings - WARNING - No mapping found for 'ml4se23_g1_wizardcoder-scot-1b-v1.0', trying original name
+2025-07-04 10:49:50,614 - src.settings - INFO - No generation_config.json found for ml4se23_g1_wizardcoder-scot-1b-v1.0.
+2025-07-04 10:49:50,666 - src.settings - INFO - No config.json found for ml4se23_g1_wizardcoder-scot-1b-v1.0.
+2025-07-04 10:49:50,666 - src.settings - WARNING - Could not find or parse optimal settings for model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:49:50,666 - __main__ - WARNING - Could not find optimal settings for ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:49:50,666 - __main__ - INFO - Processing model: starcoder2-3b-instruct
+2025-07-04 10:49:50,666 - src.settings - INFO - Searching for optimal settings for model: starcoder2-3b-instruct
+2025-07-04 10:49:50,667 - src.settings - INFO - Mapped 'starcoder2-3b-instruct' to 'bigcode/starcoder2-3b'
+2025-07-04 10:49:50,728 - src.settings - INFO - No generation_config.json found for bigcode/starcoder2-3b.
+2025-07-04 10:49:50,853 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--bigcode--starcoder2-3b/snapshots/733247c55e3f73af49ce8e9c7949bf14af205928/config.json
+2025-07-04 10:49:50,853 - src.settings - INFO - Extracted config settings: {'architectures': ['Starcoder2ForCausalLM'], 'attention_dropout': 0.1, 'residual_dropout': 0.1, 'embedding_dropout': 0.1, 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'gelu_pytorch_tanh', 'hidden_size': 3072, 'initializer_range': 0.018042, 'intermediate_size': 12288, 'max_position_embeddings': 16384, 'mlp_type': 'default', 'model_type': 'starcoder2', 'norm_epsilon': 1e-05, 'norm_type': 'layer_norm', 'num_attention_heads': 24, 'num_hidden_layers': 30, 'num_key_value_heads': 2, 'rope_theta': 999999.4420358813, 'sliding_window': 4096, 'transformers_version': '4.37.0.dev0', 'use_bias': True, 'use_cache': True, 'vocab_size': 49152}
+2025-07-04 10:49:50,854 - src.settings - INFO - Found optimal settings for starcoder2-3b-instruct: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:49:50,854 - __main__ - INFO - Found potential optimal settings for starcoder2-3b-instruct: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:49:50,854 - src.models - INFO - Saving profile for model starcoder2-3b-instruct to profiles/starcoder2-3b-instruct.json
+2025-07-04 10:49:50,854 - __main__ - INFO - Processing model: starcoder2-15b
+2025-07-04 10:49:50,854 - src.settings - INFO - Searching for optimal settings for model: starcoder2-15b
+2025-07-04 10:49:50,855 - src.settings - INFO - Mapped 'starcoder2-15b' to 'bigcode/starcoder2-15b'
+2025-07-04 10:49:51,022 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--bigcode--starcoder2-15b/snapshots/46d44742909c03ac8cee08eb03fdebce02e193ec/generation_config.json
+2025-07-04 10:49:51,022 - src.settings - INFO - Extracted generation settings: {}
+2025-07-04 10:49:51,196 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--bigcode--starcoder2-15b/snapshots/46d44742909c03ac8cee08eb03fdebce02e193ec/config.json
+2025-07-04 10:49:51,197 - src.settings - INFO - Extracted config settings: {'_name_or_path': '/aot/checkpoints/15b/config.json', 'architectures': ['Starcoder2ForCausalLM'], 'attention_dropout': 0.1, 'residual_dropout': 0.1, 'embedding_dropout': 0.1, 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'gelu_pytorch_tanh', 'hidden_size': 6144, 'initializer_range': 0.01275, 'intermediate_size': 24576, 'max_position_embeddings': 16384, 'mlp_type': 'default', 'model_type': 'starcoder2', 'norm_epsilon': 1e-05, 'norm_type': 'layer_norm', 'num_attention_heads': 48, 'num_hidden_layers': 40, 'num_key_value_heads': 4, 'rope_theta': 100000, 'sliding_window': 4096, 'tie_word_embeddings': False, 'torch_dtype': 'float32', 'transformers_version': '4.37.0.dev0', 'use_bias': True, 'use_cache': True, 'vocab_size': 49152}
+2025-07-04 10:49:51,197 - src.settings - INFO - Found optimal settings for starcoder2-15b: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:49:51,197 - __main__ - INFO - Found potential optimal settings for starcoder2-15b: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:49:51,197 - src.models - INFO - Saving profile for model starcoder2-15b to profiles/starcoder2-15b.json
+2025-07-04 10:49:51,197 - __main__ - INFO - Processing model: qwen2.5-coder-32b-instruct
+2025-07-04 10:49:51,197 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-32b-instruct
+2025-07-04 10:49:51,197 - src.settings - INFO - Mapped 'qwen2.5-coder-32b-instruct' to 'Qwen/Qwen2.5-Coder-32B-Instruct'
+2025-07-04 10:49:51,463 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-32B-Instruct/snapshots/381fc969f78efac66bc87ff7ddeadb7e73c218a7/generation_config.json
+2025-07-04 10:49:51,463 - src.settings - INFO - Extracted generation settings: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05}
+2025-07-04 10:49:51,707 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-32B-Instruct/snapshots/381fc969f78efac66bc87ff7ddeadb7e73c218a7/config.json
+2025-07-04 10:49:51,707 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151645, 'hidden_act': 'silu', 'hidden_size': 5120, 'initializer_range': 0.02, 'intermediate_size': 27648, 'max_position_embeddings': 32768, 'max_window_layers': 64, 'model_type': 'qwen2', 'num_attention_heads': 40, 'num_hidden_layers': 64, 'num_key_value_heads': 8, 'rms_norm_eps': 1e-06, 'rope_theta': 1000000.0, 'sliding_window': 131072, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.43.1', 'use_cache': True, 'use_sliding_window': False, 'vocab_size': 152064}
+2025-07-04 10:49:51,707 - src.settings - INFO - Found optimal settings for qwen2.5-coder-32b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:49:51,707 - __main__ - INFO - Found potential optimal settings for qwen2.5-coder-32b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:49:51,707 - src.models - INFO - Saving profile for model qwen2.5-coder-32b-instruct to profiles/qwen2.5-coder-32b-instruct.json
+2025-07-04 10:49:51,707 - __main__ - INFO - Processing model: deepseek-r1-distill-qwen-1.5b
+2025-07-04 10:49:51,707 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-qwen-1.5b
+2025-07-04 10:49:51,708 - src.settings - INFO - Mapped 'deepseek-r1-distill-qwen-1.5b' to 'deepseek-ai/deepseek-r1-distill-qwen-1.5b'
+2025-07-04 10:49:52,020 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-1.5b/snapshots/ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562/generation_config.json
+2025-07-04 10:49:52,020 - src.settings - INFO - Extracted generation settings: {'temperature': 0.6, 'top_p': 0.95}
+2025-07-04 10:49:52,266 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-1.5b/snapshots/ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562/config.json
+2025-07-04 10:49:52,266 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151643, 'hidden_act': 'silu', 'hidden_size': 1536, 'initializer_range': 0.02, 'intermediate_size': 8960, 'max_position_embeddings': 131072, 'max_window_layers': 21, 'model_type': 'qwen2', 'num_attention_heads': 12, 'num_hidden_layers': 28, 'num_key_value_heads': 2, 'rms_norm_eps': 1e-06, 'rope_theta': 10000, 'sliding_window': 4096, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.44.0', 'use_cache': True, 'use_mrope': False, 'use_sliding_window': False, 'vocab_size': 151936}
+2025-07-04 10:49:52,266 - src.settings - INFO - Found optimal settings for deepseek-r1-distill-qwen-1.5b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:49:52,266 - __main__ - INFO - Found potential optimal settings for deepseek-r1-distill-qwen-1.5b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:49:52,266 - src.models - INFO - Saving profile for model deepseek-r1-distill-qwen-1.5b to profiles/deepseek-r1-distill-qwen-1.5b.json
+2025-07-04 10:49:52,266 - __main__ - INFO - Processing model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:49:52,266 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:49:52,266 - src.settings - WARNING - No mapping found for 'qwen2.5-coder-0.5b-instruct', trying original name
+2025-07-04 10:49:52,321 - src.settings - INFO - No generation_config.json found for qwen2.5-coder-0.5b-instruct.
+2025-07-04 10:49:52,374 - src.settings - INFO - No config.json found for qwen2.5-coder-0.5b-instruct.
+2025-07-04 10:49:52,374 - src.settings - WARNING - Could not find or parse optimal settings for model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:49:52,374 - __main__ - WARNING - Could not find optimal settings for qwen2.5-coder-0.5b-instruct
+2025-07-04 10:49:52,374 - __main__ - INFO - Processing model: olympiccoder-7b
+2025-07-04 10:49:52,374 - src.settings - INFO - Searching for optimal settings for model: olympiccoder-7b
+2025-07-04 10:49:52,374 - src.settings - WARNING - No mapping found for 'olympiccoder-7b', trying original name
+2025-07-04 10:49:52,429 - src.settings - INFO - No generation_config.json found for olympiccoder-7b.
+2025-07-04 10:49:52,486 - src.settings - INFO - No config.json found for olympiccoder-7b.
+2025-07-04 10:49:52,486 - src.settings - WARNING - Could not find or parse optimal settings for model: olympiccoder-7b
+2025-07-04 10:49:52,486 - __main__ - WARNING - Could not find optimal settings for olympiccoder-7b
+2025-07-04 10:49:52,486 - __main__ - INFO - Processing model: deepseek-r1-distill-llama-8b
+2025-07-04 10:49:52,486 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-llama-8b
+2025-07-04 10:49:52,486 - src.settings - INFO - Mapped 'deepseek-r1-distill-llama-8b' to 'deepseek-ai/deepseek-r1-distill-llama-8b'
+2025-07-04 10:49:52,720 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-llama-8b/snapshots/6a6f4aa4197940add57724a7707d069478df56b1/generation_config.json
+2025-07-04 10:49:52,720 - src.settings - INFO - Extracted generation settings: {'temperature': 0.6, 'top_p': 0.95}
+2025-07-04 10:49:52,944 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-llama-8b/snapshots/6a6f4aa4197940add57724a7707d069478df56b1/config.json
+2025-07-04 10:49:52,944 - src.settings - INFO - Extracted config settings: {'architectures': ['LlamaForCausalLM'], 'attention_bias': False, 'attention_dropout': 0.0, 'bos_token_id': 128000, 'eos_token_id': 128001, 'hidden_act': 'silu', 'hidden_size': 4096, 'initializer_range': 0.02, 'intermediate_size': 14336, 'max_position_embeddings': 131072, 'mlp_bias': False, 'model_type': 'llama', 'num_attention_heads': 32, 'num_hidden_layers': 32, 'num_key_value_heads': 8, 'pretraining_tp': 1, 'rms_norm_eps': 1e-05, 'rope_scaling': {'factor': 8.0, 'low_freq_factor': 1.0, 'high_freq_factor': 4.0, 'original_max_position_embeddings': 8192, 'rope_type': 'llama3'}, 'rope_theta': 500000.0, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.43.0.dev0', 'use_cache': True, 'vocab_size': 128256}
+2025-07-04 10:49:52,944 - src.settings - INFO - Found optimal settings for deepseek-r1-distill-llama-8b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'llama', 'vocab_size': 128256}
+2025-07-04 10:49:52,944 - __main__ - INFO - Found potential optimal settings for deepseek-r1-distill-llama-8b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'llama', 'vocab_size': 128256}
+2025-07-04 10:49:52,944 - src.models - INFO - Saving profile for model deepseek-r1-distill-llama-8b to profiles/deepseek-r1-distill-llama-8b.json
+2025-07-04 10:49:52,944 - __main__ - INFO - Processing model: deepseek-r1-distill-qwen-7b
+2025-07-04 10:49:52,944 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-qwen-7b
+2025-07-04 10:49:52,944 - src.settings - INFO - Mapped 'deepseek-r1-distill-qwen-7b' to 'deepseek-ai/deepseek-r1-distill-qwen-7b'
+2025-07-04 10:49:53,187 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-7b/snapshots/916b56a44061fd5cd7d6a8fb632557ed4f724f60/generation_config.json
+2025-07-04 10:49:53,187 - src.settings - INFO - Extracted generation settings: {'temperature': 0.6, 'top_p': 0.95}
+2025-07-04 10:49:53,421 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-7b/snapshots/916b56a44061fd5cd7d6a8fb632557ed4f724f60/config.json
+2025-07-04 10:49:53,421 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151643, 'hidden_act': 'silu', 'hidden_size': 3584, 'initializer_range': 0.02, 'intermediate_size': 18944, 'max_position_embeddings': 131072, 'max_window_layers': 28, 'model_type': 'qwen2', 'num_attention_heads': 28, 'num_hidden_layers': 28, 'num_key_value_heads': 4, 'rms_norm_eps': 1e-06, 'rope_theta': 10000, 'sliding_window': 4096, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.44.0', 'use_cache': True, 'use_mrope': False, 'use_sliding_window': False, 'vocab_size': 152064}
+2025-07-04 10:49:53,421 - src.settings - INFO - Found optimal settings for deepseek-r1-distill-qwen-7b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:49:53,421 - __main__ - INFO - Found potential optimal settings for deepseek-r1-distill-qwen-7b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:49:53,422 - src.models - INFO - Saving profile for model deepseek-r1-distill-qwen-7b to profiles/deepseek-r1-distill-qwen-7b.json
+2025-07-04 10:49:53,422 - __main__ - INFO - Processing model: openai-community_-_gpt2-xl
+2025-07-04 10:49:53,422 - src.settings - INFO - Searching for optimal settings for model: openai-community_-_gpt2-xl
+2025-07-04 10:49:53,422 - src.settings - INFO - Mapped 'openai-community_-_gpt2-xl' to 'openai-community/gpt2-xl'
+2025-07-04 10:49:53,590 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--openai-community--gpt2-xl/snapshots/15ea56dee5df4983c59b2538573817e1667135e2/generation_config.json
+2025-07-04 10:49:53,590 - src.settings - INFO - Extracted generation settings: {}
+2025-07-04 10:49:53,788 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--openai-community--gpt2-xl/snapshots/15ea56dee5df4983c59b2538573817e1667135e2/config.json
+2025-07-04 10:49:53,788 - src.settings - INFO - Extracted config settings: {'activation_function': 'gelu_new', 'architectures': ['GPT2LMHeadModel'], 'attn_pdrop': 0.1, 'bos_token_id': 50256, 'embd_pdrop': 0.1, 'eos_token_id': 50256, 'initializer_range': 0.02, 'layer_norm_epsilon': 1e-05, 'model_type': 'gpt2', 'n_ctx': 1024, 'n_embd': 1600, 'n_head': 25, 'n_layer': 48, 'n_positions': 1024, 'output_past': True, 'resid_pdrop': 0.1, 'summary_activation': None, 'summary_first_dropout': 0.1, 'summary_proj_to_labels': True, 'summary_type': 'cls_index', 'summary_use_proj': True, 'task_specific_params': {'text-generation': {'do_sample': True, 'max_length': 50}}, 'vocab_size': 50257}
+2025-07-04 10:49:53,788 - src.settings - INFO - Found optimal settings for openai-community_-_gpt2-xl: {'model_type': 'gpt2', 'vocab_size': 50257}
+2025-07-04 10:49:53,788 - __main__ - INFO - Found potential optimal settings for openai-community_-_gpt2-xl: {'model_type': 'gpt2', 'vocab_size': 50257}
+2025-07-04 10:49:53,788 - src.models - INFO - Saving profile for model openai-community_-_gpt2-xl to profiles/openai-community_-_gpt2-xl.json
+2025-07-04 10:49:53,788 - __main__ - INFO - Processing model: qwen2.5-coder-3b-instruct
+2025-07-04 10:49:53,788 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-3b-instruct
+2025-07-04 10:49:53,788 - src.settings - INFO - Mapped 'qwen2.5-coder-3b-instruct' to 'Qwen/Qwen2.5-Coder-3B-Instruct'
+2025-07-04 10:49:53,965 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5/generation_config.json
+2025-07-04 10:49:53,966 - src.settings - INFO - Extracted generation settings: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05}
+2025-07-04 10:49:54,251 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5/config.json
+2025-07-04 10:49:54,251 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151645, 'hidden_act': 'silu', 'hidden_size': 2048, 'initializer_range': 0.02, 'intermediate_size': 11008, 'max_position_embeddings': 32768, 'max_window_layers': 36, 'model_type': 'qwen2', 'num_attention_heads': 16, 'num_hidden_layers': 36, 'num_key_value_heads': 2, 'rms_norm_eps': 1e-06, 'rope_theta': 1000000.0, 'sliding_window': 32768, 'tie_word_embeddings': True, 'torch_dtype': 'bfloat16', 'transformers_version': '4.43.1', 'use_cache': True, 'use_sliding_window': False, 'vocab_size': 151936}
+2025-07-04 10:49:54,251 - src.settings - INFO - Found optimal settings for qwen2.5-coder-3b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:49:54,251 - __main__ - INFO - Found potential optimal settings for qwen2.5-coder-3b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:49:54,251 - src.models - INFO - Saving profile for model qwen2.5-coder-3b-instruct to profiles/qwen2.5-coder-3b-instruct.json
+2025-07-04 10:49:54,251 - __main__ - INFO - Processing model: codellama-7b-instruct
+2025-07-04 10:49:54,251 - src.settings - INFO - Searching for optimal settings for model: codellama-7b-instruct
+2025-07-04 10:49:54,251 - src.settings - INFO - Mapped 'codellama-7b-instruct' to 'codellama/CodeLlama-7b-Instruct-hf'
+2025-07-04 10:49:54,420 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--codellama--CodeLlama-7b-Instruct-hf/snapshots/22cb240e0292b0b5ab4c17ccd97aa3a2f799cbed/generation_config.json
+2025-07-04 10:49:54,421 - src.settings - INFO - Extracted generation settings: {}
+2025-07-04 10:49:54,594 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--codellama--CodeLlama-7b-Instruct-hf/snapshots/22cb240e0292b0b5ab4c17ccd97aa3a2f799cbed/config.json
+2025-07-04 10:49:54,594 - src.settings - INFO - Extracted config settings: {'_name_or_path': 'codellama/CodeLlama-7b-Instruct-hf', 'architectures': ['LlamaForCausalLM'], 'bos_token_id': 1, 'eos_token_id': 2, 'hidden_act': 'silu', 'hidden_size': 4096, 'initializer_range': 0.02, 'intermediate_size': 11008, 'max_position_embeddings': 16384, 'model_type': 'llama', 'num_attention_heads': 32, 'num_hidden_layers': 32, 'num_key_value_heads': 32, 'pretraining_tp': 1, 'rms_norm_eps': 1e-05, 'rope_scaling': None, 'rope_theta': 1000000, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.33.0.dev0', 'use_cache': True, 'vocab_size': 32016}
+2025-07-04 10:49:54,594 - src.settings - INFO - Found optimal settings for codellama-7b-instruct: {'max_context_length': 16384, 'model_type': 'llama', 'vocab_size': 32016}
+2025-07-04 10:49:54,594 - __main__ - INFO - Found potential optimal settings for codellama-7b-instruct: {'max_context_length': 16384, 'model_type': 'llama', 'vocab_size': 32016}
+2025-07-04 10:49:54,594 - src.models - INFO - Saving profile for model codellama-7b-instruct to profiles/codellama-7b-instruct.json
+2025-07-04 10:49:54,595 - __main__ - INFO - Processing model: stable-code-instruct-3b
+2025-07-04 10:49:54,595 - src.settings - INFO - Searching for optimal settings for model: stable-code-instruct-3b
+2025-07-04 10:49:54,595 - src.settings - INFO - Mapped 'stable-code-instruct-3b' to 'stabilityai/stable-code-instruct-3b'
+2025-07-04 10:49:54,796 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--stabilityai--stable-code-instruct-3b/snapshots/20e21f0e817b72499c8585d86a139c0fd011adba/generation_config.json
+2025-07-04 10:49:54,796 - src.settings - INFO - Extracted generation settings: {}
+2025-07-04 10:49:55,004 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--stabilityai--stable-code-instruct-3b/snapshots/20e21f0e817b72499c8585d86a139c0fd011adba/config.json
+2025-07-04 10:49:55,004 - src.settings - INFO - Extracted config settings: {'_name_or_path': 'stabilityai/stable-code-instruct-3b', 'architectures': ['StableLmForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'silu', 'hidden_dropout': 0.0, 'hidden_size': 2560, 'initializer_range': 0.02, 'intermediate_size': 6912, 'layer_norm_eps': 1e-05, 'max_position_embeddings': 16384, 'model_type': 'stablelm', 'num_attention_heads': 32, 'num_hidden_layers': 32, 'num_key_value_heads': 32, 'partial_rotary_factor': 0.25, 'rope_scaling': None, 'rope_theta': 1000000, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.38.2', 'use_cache': False, 'use_qkv_bias': False, 'vocab_size': 50304}
+2025-07-04 10:49:55,004 - src.settings - INFO - Found optimal settings for stable-code-instruct-3b: {'max_context_length': 16384, 'model_type': 'stablelm', 'vocab_size': 50304}
+2025-07-04 10:49:55,004 - __main__ - INFO - Found potential optimal settings for stable-code-instruct-3b: {'max_context_length': 16384, 'model_type': 'stablelm', 'vocab_size': 50304}
+2025-07-04 10:49:55,004 - src.models - INFO - Saving profile for model stable-code-instruct-3b to profiles/stable-code-instruct-3b.json
+2025-07-04 10:49:55,004 - __main__ - INFO - Settings search complete. Profiles saved.
+2025-07-04 10:49:55,004 - __main__ - INFO - Next steps: Implement Rich UI and settings application logic.
+2025-07-04 10:50:29,998 - __main__ - INFO - Starting LMSAuto...
+2025-07-04 10:50:29,999 - src.models - INFO - Discovering models via LM Studio API
+2025-07-04 10:50:30,002 - src.models - INFO - Discovered 22 models
+2025-07-04 10:50:30,002 - __main__ - INFO - Discovered models: ['qwen2.5-coder-7b-instruct', 'text-embedding-nomic-embed-text-v1.5', 'gemma-3-4b-it', 'gemma-3-1b-it', 'quasar-3.0-instract-v2', 'qwen2-0.5b-instruct', 'starcoder2-3b', 'deepseek-coder-1.3b-typescript', 'wizardcoder-python-13b-v1.0', 'ml4se23_g1_wizardcoder-scot-1b-v1.0', 'starcoder2-3b-instruct', 'starcoder2-15b', 'qwen2.5-coder-32b-instruct', 'deepseek-r1-distill-qwen-1.5b', 'qwen2.5-coder-0.5b-instruct', 'olympiccoder-7b', 'deepseek-r1-distill-llama-8b', 'deepseek-r1-distill-qwen-7b', 'openai-community_-_gpt2-xl', 'qwen2.5-coder-3b-instruct', 'codellama-7b-instruct', 'stable-code-instruct-3b']
+2025-07-04 10:50:30,002 - __main__ - INFO - Processing model: qwen2.5-coder-7b-instruct
+2025-07-04 10:50:30,002 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-7b-instruct
+2025-07-04 10:50:30,002 - src.settings - INFO - Mapped 'qwen2.5-coder-7b-instruct' to 'Qwen/Qwen2.5-Coder-7B-Instruct'
+2025-07-04 10:50:30,158 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-7B-Instruct/snapshots/c03e6d358207e414f1eca0bb1891e29f1db0e242/generation_config.json
+2025-07-04 10:50:30,158 - src.settings - INFO - Extracted generation settings: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1}
+2025-07-04 10:50:30,254 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-7B-Instruct/snapshots/c03e6d358207e414f1eca0bb1891e29f1db0e242/config.json
+2025-07-04 10:50:30,254 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151645, 'hidden_act': 'silu', 'hidden_size': 3584, 'initializer_range': 0.02, 'intermediate_size': 18944, 'max_position_embeddings': 32768, 'max_window_layers': 28, 'model_type': 'qwen2', 'num_attention_heads': 28, 'num_hidden_layers': 28, 'num_key_value_heads': 4, 'rms_norm_eps': 1e-06, 'rope_theta': 1000000.0, 'sliding_window': 131072, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.44.0', 'use_cache': True, 'use_sliding_window': False, 'vocab_size': 152064}
+2025-07-04 10:50:30,254 - src.settings - INFO - Found optimal settings for qwen2.5-coder-7b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:50:30,254 - __main__ - INFO - Found potential optimal settings for qwen2.5-coder-7b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:50:30,254 - src.models - INFO - Saving profile for model qwen2.5-coder-7b-instruct to profiles/qwen2.5-coder-7b-instruct.json
+2025-07-04 10:50:30,254 - __main__ - INFO - Processing model: text-embedding-nomic-embed-text-v1.5
+2025-07-04 10:50:30,254 - src.settings - INFO - Searching for optimal settings for model: text-embedding-nomic-embed-text-v1.5
+2025-07-04 10:50:30,255 - src.settings - INFO - Mapped 'text-embedding-nomic-embed-text-v1.5' to 'nomic-ai/nomic-embed-text-v1.5'
+2025-07-04 10:50:30,310 - src.settings - INFO - No generation_config.json found for nomic-ai/nomic-embed-text-v1.5.
+2025-07-04 10:50:30,406 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--nomic-ai--nomic-embed-text-v1.5/snapshots/a03db6748c80237063eb0546ac6b627eca2318cb/config.json
+2025-07-04 10:50:30,406 - src.settings - INFO - Extracted config settings: {'activation_function': 'swiglu', 'architectures': ['NomicBertModel'], 'attn_pdrop': 0.0, 'auto_map': {'AutoConfig': 'nomic-ai/nomic-bert-2048--configuration_hf_nomic_bert.NomicBertConfig', 'AutoModel': 'nomic-ai/nomic-bert-2048--modeling_hf_nomic_bert.NomicBertModel', 'AutoModelForMaskedLM': 'nomic-ai/nomic-bert-2048--modeling_hf_nomic_bert.NomicBertForPreTraining'}, 'bos_token_id': None, 'causal': False, 'dense_seq_output': True, 'embd_pdrop': 0.0, 'eos_token_id': None, 'fused_bias_fc': True, 'fused_dropout_add_ln': True, 'initializer_range': 0.02, 'layer_norm_epsilon': 1e-12, 'max_trained_positions': 2048, 'mlp_fc1_bias': False, 'mlp_fc2_bias': False, 'model_type': 'nomic_bert', 'n_embd': 768, 'n_head': 12, 'n_inner': 3072, 'n_layer': 12, 'n_positions': 8192, 'pad_vocab_size_multiple': 64, 'parallel_block': False, 'parallel_block_tied_norm': False, 'prenorm': False, 'qkv_proj_bias': False, 'reorder_and_upcast_attn': False, 'resid_pdrop': 0.0, 'rotary_emb_base': 1000, 'rotary_emb_fraction': 1.0, 'rotary_emb_interleaved': False, 'rotary_emb_scale_base': None, 'rotary_scaling_factor': None, 'scale_attn_by_inverse_layer_idx': False, 'scale_attn_weights': True, 'summary_activation': None, 'summary_first_dropout': 0.0, 'summary_proj_to_labels': True, 'summary_type': 'cls_index', 'summary_use_proj': True, 'torch_dtype': 'float32', 'transformers_version': '4.37.2', 'type_vocab_size': 2, 'use_cache': True, 'use_flash_attn': True, 'use_rms_norm': False, 'use_xentropy': True, 'vocab_size': 30528}
+2025-07-04 10:50:30,406 - src.settings - INFO - Found optimal settings for text-embedding-nomic-embed-text-v1.5: {'model_type': 'nomic_bert', 'vocab_size': 30528}
+2025-07-04 10:50:30,406 - __main__ - INFO - Found potential optimal settings for text-embedding-nomic-embed-text-v1.5: {'model_type': 'nomic_bert', 'vocab_size': 30528}
+2025-07-04 10:50:30,406 - src.models - INFO - Saving profile for model text-embedding-nomic-embed-text-v1.5 to profiles/text-embedding-nomic-embed-text-v1.5.json
+2025-07-04 10:50:30,406 - __main__ - INFO - Processing model: gemma-3-4b-it
+2025-07-04 10:50:30,406 - src.settings - INFO - Searching for optimal settings for model: gemma-3-4b-it
+2025-07-04 10:50:30,407 - src.settings - INFO - Mapped 'gemma-3-4b-it' to 'google/gemma-2-4b-it'
+2025-07-04 10:50:30,457 - src.settings - INFO - No generation_config.json found for google/gemma-2-4b-it.
+2025-07-04 10:50:30,512 - src.settings - INFO - No config.json found for google/gemma-2-4b-it.
+2025-07-04 10:50:30,512 - src.settings - WARNING - Could not find or parse optimal settings for model: gemma-3-4b-it
+2025-07-04 10:50:30,512 - __main__ - WARNING - Could not find optimal settings for gemma-3-4b-it
+2025-07-04 10:50:30,512 - __main__ - INFO - Processing model: gemma-3-1b-it
+2025-07-04 10:50:30,512 - src.settings - INFO - Searching for optimal settings for model: gemma-3-1b-it
+2025-07-04 10:50:30,512 - src.settings - INFO - Mapped 'gemma-3-1b-it' to 'google/gemma-2-1b-it'
+2025-07-04 10:50:30,564 - src.settings - INFO - No generation_config.json found for google/gemma-2-1b-it.
+2025-07-04 10:50:30,622 - src.settings - INFO - No config.json found for google/gemma-2-1b-it.
+2025-07-04 10:50:30,622 - src.settings - WARNING - Could not find or parse optimal settings for model: gemma-3-1b-it
+2025-07-04 10:50:30,622 - __main__ - WARNING - Could not find optimal settings for gemma-3-1b-it
+2025-07-04 10:50:30,623 - __main__ - INFO - Processing model: quasar-3.0-instract-v2
+2025-07-04 10:50:30,623 - src.settings - INFO - Searching for optimal settings for model: quasar-3.0-instract-v2
+2025-07-04 10:50:30,623 - src.settings - WARNING - No mapping found for 'quasar-3.0-instract-v2', trying original name
+2025-07-04 10:50:30,674 - src.settings - INFO - No generation_config.json found for quasar-3.0-instract-v2.
+2025-07-04 10:50:30,727 - src.settings - INFO - No config.json found for quasar-3.0-instract-v2.
+2025-07-04 10:50:30,727 - src.settings - WARNING - Could not find or parse optimal settings for model: quasar-3.0-instract-v2
+2025-07-04 10:50:30,727 - __main__ - WARNING - Could not find optimal settings for quasar-3.0-instract-v2
+2025-07-04 10:50:30,727 - __main__ - INFO - Processing model: qwen2-0.5b-instruct
+2025-07-04 10:50:30,727 - src.settings - INFO - Searching for optimal settings for model: qwen2-0.5b-instruct
+2025-07-04 10:50:30,728 - src.settings - INFO - Mapped 'qwen2-0.5b-instruct' to 'Qwen/Qwen2-0.5B-Instruct'
+2025-07-04 10:50:30,828 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d/generation_config.json
+2025-07-04 10:50:30,828 - src.settings - INFO - Extracted generation settings: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1}
+2025-07-04 10:50:30,927 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d/config.json
+2025-07-04 10:50:30,927 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151645, 'hidden_act': 'silu', 'hidden_size': 896, 'initializer_range': 0.02, 'intermediate_size': 4864, 'max_position_embeddings': 32768, 'max_window_layers': 24, 'model_type': 'qwen2', 'num_attention_heads': 14, 'num_hidden_layers': 24, 'num_key_value_heads': 2, 'rms_norm_eps': 1e-06, 'rope_theta': 1000000.0, 'sliding_window': 32768, 'tie_word_embeddings': True, 'torch_dtype': 'bfloat16', 'transformers_version': '4.40.1', 'use_cache': True, 'use_sliding_window': False, 'vocab_size': 151936}
+2025-07-04 10:50:30,927 - src.settings - INFO - Found optimal settings for qwen2-0.5b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:50:30,928 - __main__ - INFO - Found potential optimal settings for qwen2-0.5b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.1, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:50:30,928 - src.models - INFO - Saving profile for model qwen2-0.5b-instruct to profiles/qwen2-0.5b-instruct.json
+2025-07-04 10:50:30,928 - __main__ - INFO - Processing model: starcoder2-3b
+2025-07-04 10:50:30,929 - src.settings - INFO - Searching for optimal settings for model: starcoder2-3b
+2025-07-04 10:50:30,929 - src.settings - INFO - Mapped 'starcoder2-3b' to 'bigcode/starcoder2-3b'
+2025-07-04 10:50:30,982 - src.settings - INFO - No generation_config.json found for bigcode/starcoder2-3b.
+2025-07-04 10:50:31,067 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--bigcode--starcoder2-3b/snapshots/733247c55e3f73af49ce8e9c7949bf14af205928/config.json
+2025-07-04 10:50:31,067 - src.settings - INFO - Extracted config settings: {'architectures': ['Starcoder2ForCausalLM'], 'attention_dropout': 0.1, 'residual_dropout': 0.1, 'embedding_dropout': 0.1, 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'gelu_pytorch_tanh', 'hidden_size': 3072, 'initializer_range': 0.018042, 'intermediate_size': 12288, 'max_position_embeddings': 16384, 'mlp_type': 'default', 'model_type': 'starcoder2', 'norm_epsilon': 1e-05, 'norm_type': 'layer_norm', 'num_attention_heads': 24, 'num_hidden_layers': 30, 'num_key_value_heads': 2, 'rope_theta': 999999.4420358813, 'sliding_window': 4096, 'transformers_version': '4.37.0.dev0', 'use_bias': True, 'use_cache': True, 'vocab_size': 49152}
+2025-07-04 10:50:31,069 - src.settings - INFO - Found optimal settings for starcoder2-3b: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:50:31,069 - __main__ - INFO - Found potential optimal settings for starcoder2-3b: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:50:31,069 - src.models - INFO - Saving profile for model starcoder2-3b to profiles/starcoder2-3b.json
+2025-07-04 10:50:31,069 - __main__ - INFO - Processing model: deepseek-coder-1.3b-typescript
+2025-07-04 10:50:31,069 - src.settings - INFO - Searching for optimal settings for model: deepseek-coder-1.3b-typescript
+2025-07-04 10:50:31,069 - src.settings - INFO - Mapped 'deepseek-coder-1.3b-typescript' to 'deepseek-ai/deepseek-coder-1.3b-typescript'
+2025-07-04 10:50:31,123 - src.settings - INFO - No generation_config.json found for deepseek-ai/deepseek-coder-1.3b-typescript.
+2025-07-04 10:50:31,176 - src.settings - INFO - No config.json found for deepseek-ai/deepseek-coder-1.3b-typescript.
+2025-07-04 10:50:31,176 - src.settings - WARNING - Could not find or parse optimal settings for model: deepseek-coder-1.3b-typescript
+2025-07-04 10:50:31,176 - __main__ - WARNING - Could not find optimal settings for deepseek-coder-1.3b-typescript
+2025-07-04 10:50:31,176 - __main__ - INFO - Processing model: wizardcoder-python-13b-v1.0
+2025-07-04 10:50:31,176 - src.settings - INFO - Searching for optimal settings for model: wizardcoder-python-13b-v1.0
+2025-07-04 10:50:31,176 - src.settings - WARNING - No mapping found for 'wizardcoder-python-13b-v1.0', trying original name
+2025-07-04 10:50:31,230 - src.settings - INFO - No generation_config.json found for wizardcoder-python-13b-v1.0.
+2025-07-04 10:50:31,281 - src.settings - INFO - No config.json found for wizardcoder-python-13b-v1.0.
+2025-07-04 10:50:31,281 - src.settings - WARNING - Could not find or parse optimal settings for model: wizardcoder-python-13b-v1.0
+2025-07-04 10:50:31,281 - __main__ - WARNING - Could not find optimal settings for wizardcoder-python-13b-v1.0
+2025-07-04 10:50:31,281 - __main__ - INFO - Processing model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:50:31,281 - src.settings - INFO - Searching for optimal settings for model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:50:31,281 - src.settings - WARNING - No mapping found for 'ml4se23_g1_wizardcoder-scot-1b-v1.0', trying original name
+2025-07-04 10:50:31,339 - src.settings - INFO - No generation_config.json found for ml4se23_g1_wizardcoder-scot-1b-v1.0.
+2025-07-04 10:50:31,394 - src.settings - INFO - No config.json found for ml4se23_g1_wizardcoder-scot-1b-v1.0.
+2025-07-04 10:50:31,394 - src.settings - WARNING - Could not find or parse optimal settings for model: ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:50:31,394 - __main__ - WARNING - Could not find optimal settings for ml4se23_g1_wizardcoder-scot-1b-v1.0
+2025-07-04 10:50:31,394 - __main__ - INFO - Processing model: starcoder2-3b-instruct
+2025-07-04 10:50:31,394 - src.settings - INFO - Searching for optimal settings for model: starcoder2-3b-instruct
+2025-07-04 10:50:31,394 - src.settings - INFO - Mapped 'starcoder2-3b-instruct' to 'bigcode/starcoder2-3b'
+2025-07-04 10:50:31,450 - src.settings - INFO - No generation_config.json found for bigcode/starcoder2-3b.
+2025-07-04 10:50:31,536 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--bigcode--starcoder2-3b/snapshots/733247c55e3f73af49ce8e9c7949bf14af205928/config.json
+2025-07-04 10:50:31,536 - src.settings - INFO - Extracted config settings: {'architectures': ['Starcoder2ForCausalLM'], 'attention_dropout': 0.1, 'residual_dropout': 0.1, 'embedding_dropout': 0.1, 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'gelu_pytorch_tanh', 'hidden_size': 3072, 'initializer_range': 0.018042, 'intermediate_size': 12288, 'max_position_embeddings': 16384, 'mlp_type': 'default', 'model_type': 'starcoder2', 'norm_epsilon': 1e-05, 'norm_type': 'layer_norm', 'num_attention_heads': 24, 'num_hidden_layers': 30, 'num_key_value_heads': 2, 'rope_theta': 999999.4420358813, 'sliding_window': 4096, 'transformers_version': '4.37.0.dev0', 'use_bias': True, 'use_cache': True, 'vocab_size': 49152}
+2025-07-04 10:50:31,536 - src.settings - INFO - Found optimal settings for starcoder2-3b-instruct: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:50:31,536 - __main__ - INFO - Found potential optimal settings for starcoder2-3b-instruct: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:50:31,536 - src.models - INFO - Saving profile for model starcoder2-3b-instruct to profiles/starcoder2-3b-instruct.json
+2025-07-04 10:50:31,536 - __main__ - INFO - Processing model: starcoder2-15b
+2025-07-04 10:50:31,537 - src.settings - INFO - Searching for optimal settings for model: starcoder2-15b
+2025-07-04 10:50:31,537 - src.settings - INFO - Mapped 'starcoder2-15b' to 'bigcode/starcoder2-15b'
+2025-07-04 10:50:31,636 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--bigcode--starcoder2-15b/snapshots/46d44742909c03ac8cee08eb03fdebce02e193ec/generation_config.json
+2025-07-04 10:50:31,636 - src.settings - INFO - Extracted generation settings: {}
+2025-07-04 10:50:31,736 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--bigcode--starcoder2-15b/snapshots/46d44742909c03ac8cee08eb03fdebce02e193ec/config.json
+2025-07-04 10:50:31,737 - src.settings - INFO - Extracted config settings: {'_name_or_path': '/aot/checkpoints/15b/config.json', 'architectures': ['Starcoder2ForCausalLM'], 'attention_dropout': 0.1, 'residual_dropout': 0.1, 'embedding_dropout': 0.1, 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'gelu_pytorch_tanh', 'hidden_size': 6144, 'initializer_range': 0.01275, 'intermediate_size': 24576, 'max_position_embeddings': 16384, 'mlp_type': 'default', 'model_type': 'starcoder2', 'norm_epsilon': 1e-05, 'norm_type': 'layer_norm', 'num_attention_heads': 48, 'num_hidden_layers': 40, 'num_key_value_heads': 4, 'rope_theta': 100000, 'sliding_window': 4096, 'tie_word_embeddings': False, 'torch_dtype': 'float32', 'transformers_version': '4.37.0.dev0', 'use_bias': True, 'use_cache': True, 'vocab_size': 49152}
+2025-07-04 10:50:31,737 - src.settings - INFO - Found optimal settings for starcoder2-15b: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:50:31,737 - __main__ - INFO - Found potential optimal settings for starcoder2-15b: {'max_context_length': 16384, 'model_type': 'starcoder2', 'vocab_size': 49152}
+2025-07-04 10:50:31,737 - src.models - INFO - Saving profile for model starcoder2-15b to profiles/starcoder2-15b.json
+2025-07-04 10:50:31,738 - __main__ - INFO - Processing model: qwen2.5-coder-32b-instruct
+2025-07-04 10:50:31,738 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-32b-instruct
+2025-07-04 10:50:31,738 - src.settings - INFO - Mapped 'qwen2.5-coder-32b-instruct' to 'Qwen/Qwen2.5-Coder-32B-Instruct'
+2025-07-04 10:50:31,839 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-32B-Instruct/snapshots/381fc969f78efac66bc87ff7ddeadb7e73c218a7/generation_config.json
+2025-07-04 10:50:31,839 - src.settings - INFO - Extracted generation settings: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05}
+2025-07-04 10:50:31,947 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-32B-Instruct/snapshots/381fc969f78efac66bc87ff7ddeadb7e73c218a7/config.json
+2025-07-04 10:50:31,947 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151645, 'hidden_act': 'silu', 'hidden_size': 5120, 'initializer_range': 0.02, 'intermediate_size': 27648, 'max_position_embeddings': 32768, 'max_window_layers': 64, 'model_type': 'qwen2', 'num_attention_heads': 40, 'num_hidden_layers': 64, 'num_key_value_heads': 8, 'rms_norm_eps': 1e-06, 'rope_theta': 1000000.0, 'sliding_window': 131072, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.43.1', 'use_cache': True, 'use_sliding_window': False, 'vocab_size': 152064}
+2025-07-04 10:50:31,947 - src.settings - INFO - Found optimal settings for qwen2.5-coder-32b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:50:31,947 - __main__ - INFO - Found potential optimal settings for qwen2.5-coder-32b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:50:31,947 - src.models - INFO - Saving profile for model qwen2.5-coder-32b-instruct to profiles/qwen2.5-coder-32b-instruct.json
+2025-07-04 10:50:31,947 - __main__ - INFO - Processing model: deepseek-r1-distill-qwen-1.5b
+2025-07-04 10:50:31,947 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-qwen-1.5b
+2025-07-04 10:50:31,948 - src.settings - INFO - Mapped 'deepseek-r1-distill-qwen-1.5b' to 'deepseek-ai/deepseek-r1-distill-qwen-1.5b'
+2025-07-04 10:50:32,095 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-1.5b/snapshots/ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562/generation_config.json
+2025-07-04 10:50:32,096 - src.settings - INFO - Extracted generation settings: {'temperature': 0.6, 'top_p': 0.95}
+2025-07-04 10:50:32,251 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-1.5b/snapshots/ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562/config.json
+2025-07-04 10:50:32,251 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151643, 'hidden_act': 'silu', 'hidden_size': 1536, 'initializer_range': 0.02, 'intermediate_size': 8960, 'max_position_embeddings': 131072, 'max_window_layers': 21, 'model_type': 'qwen2', 'num_attention_heads': 12, 'num_hidden_layers': 28, 'num_key_value_heads': 2, 'rms_norm_eps': 1e-06, 'rope_theta': 10000, 'sliding_window': 4096, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.44.0', 'use_cache': True, 'use_mrope': False, 'use_sliding_window': False, 'vocab_size': 151936}
+2025-07-04 10:50:32,251 - src.settings - INFO - Found optimal settings for deepseek-r1-distill-qwen-1.5b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:50:32,251 - __main__ - INFO - Found potential optimal settings for deepseek-r1-distill-qwen-1.5b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:50:32,251 - src.models - INFO - Saving profile for model deepseek-r1-distill-qwen-1.5b to profiles/deepseek-r1-distill-qwen-1.5b.json
+2025-07-04 10:50:32,252 - __main__ - INFO - Processing model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:50:32,252 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:50:32,252 - src.settings - WARNING - No mapping found for 'qwen2.5-coder-0.5b-instruct', trying original name
+2025-07-04 10:50:32,304 - src.settings - INFO - No generation_config.json found for qwen2.5-coder-0.5b-instruct.
+2025-07-04 10:50:32,360 - src.settings - INFO - No config.json found for qwen2.5-coder-0.5b-instruct.
+2025-07-04 10:50:32,360 - src.settings - WARNING - Could not find or parse optimal settings for model: qwen2.5-coder-0.5b-instruct
+2025-07-04 10:50:32,360 - __main__ - WARNING - Could not find optimal settings for qwen2.5-coder-0.5b-instruct
+2025-07-04 10:50:32,360 - __main__ - INFO - Processing model: olympiccoder-7b
+2025-07-04 10:50:32,360 - src.settings - INFO - Searching for optimal settings for model: olympiccoder-7b
+2025-07-04 10:50:32,360 - src.settings - WARNING - No mapping found for 'olympiccoder-7b', trying original name
+2025-07-04 10:50:32,418 - src.settings - INFO - No generation_config.json found for olympiccoder-7b.
+2025-07-04 10:50:32,470 - src.settings - INFO - No config.json found for olympiccoder-7b.
+2025-07-04 10:50:32,470 - src.settings - WARNING - Could not find or parse optimal settings for model: olympiccoder-7b
+2025-07-04 10:50:32,470 - __main__ - WARNING - Could not find optimal settings for olympiccoder-7b
+2025-07-04 10:50:32,470 - __main__ - INFO - Processing model: deepseek-r1-distill-llama-8b
+2025-07-04 10:50:32,470 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-llama-8b
+2025-07-04 10:50:32,470 - src.settings - INFO - Mapped 'deepseek-r1-distill-llama-8b' to 'deepseek-ai/deepseek-r1-distill-llama-8b'
+2025-07-04 10:50:32,619 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-llama-8b/snapshots/6a6f4aa4197940add57724a7707d069478df56b1/generation_config.json
+2025-07-04 10:50:32,619 - src.settings - INFO - Extracted generation settings: {'temperature': 0.6, 'top_p': 0.95}
+2025-07-04 10:50:32,763 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-llama-8b/snapshots/6a6f4aa4197940add57724a7707d069478df56b1/config.json
+2025-07-04 10:50:32,763 - src.settings - INFO - Extracted config settings: {'architectures': ['LlamaForCausalLM'], 'attention_bias': False, 'attention_dropout': 0.0, 'bos_token_id': 128000, 'eos_token_id': 128001, 'hidden_act': 'silu', 'hidden_size': 4096, 'initializer_range': 0.02, 'intermediate_size': 14336, 'max_position_embeddings': 131072, 'mlp_bias': False, 'model_type': 'llama', 'num_attention_heads': 32, 'num_hidden_layers': 32, 'num_key_value_heads': 8, 'pretraining_tp': 1, 'rms_norm_eps': 1e-05, 'rope_scaling': {'factor': 8.0, 'low_freq_factor': 1.0, 'high_freq_factor': 4.0, 'original_max_position_embeddings': 8192, 'rope_type': 'llama3'}, 'rope_theta': 500000.0, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.43.0.dev0', 'use_cache': True, 'vocab_size': 128256}
+2025-07-04 10:50:32,763 - src.settings - INFO - Found optimal settings for deepseek-r1-distill-llama-8b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'llama', 'vocab_size': 128256}
+2025-07-04 10:50:32,763 - __main__ - INFO - Found potential optimal settings for deepseek-r1-distill-llama-8b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'llama', 'vocab_size': 128256}
+2025-07-04 10:50:32,763 - src.models - INFO - Saving profile for model deepseek-r1-distill-llama-8b to profiles/deepseek-r1-distill-llama-8b.json
+2025-07-04 10:50:32,764 - __main__ - INFO - Processing model: deepseek-r1-distill-qwen-7b
+2025-07-04 10:50:32,764 - src.settings - INFO - Searching for optimal settings for model: deepseek-r1-distill-qwen-7b
+2025-07-04 10:50:32,764 - src.settings - INFO - Mapped 'deepseek-r1-distill-qwen-7b' to 'deepseek-ai/deepseek-r1-distill-qwen-7b'
+2025-07-04 10:50:32,914 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-7b/snapshots/916b56a44061fd5cd7d6a8fb632557ed4f724f60/generation_config.json
+2025-07-04 10:50:32,914 - src.settings - INFO - Extracted generation settings: {'temperature': 0.6, 'top_p': 0.95}
+2025-07-04 10:50:33,065 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-7b/snapshots/916b56a44061fd5cd7d6a8fb632557ed4f724f60/config.json
+2025-07-04 10:50:33,065 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151643, 'hidden_act': 'silu', 'hidden_size': 3584, 'initializer_range': 0.02, 'intermediate_size': 18944, 'max_position_embeddings': 131072, 'max_window_layers': 28, 'model_type': 'qwen2', 'num_attention_heads': 28, 'num_hidden_layers': 28, 'num_key_value_heads': 4, 'rms_norm_eps': 1e-06, 'rope_theta': 10000, 'sliding_window': 4096, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.44.0', 'use_cache': True, 'use_mrope': False, 'use_sliding_window': False, 'vocab_size': 152064}
+2025-07-04 10:50:33,065 - src.settings - INFO - Found optimal settings for deepseek-r1-distill-qwen-7b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:50:33,065 - __main__ - INFO - Found potential optimal settings for deepseek-r1-distill-qwen-7b: {'temperature': 0.6, 'top_p': 0.95, 'max_context_length': 131072, 'model_type': 'qwen2', 'vocab_size': 152064}
+2025-07-04 10:50:33,065 - src.models - INFO - Saving profile for model deepseek-r1-distill-qwen-7b to profiles/deepseek-r1-distill-qwen-7b.json
+2025-07-04 10:50:33,065 - __main__ - INFO - Processing model: openai-community_-_gpt2-xl
+2025-07-04 10:50:33,065 - src.settings - INFO - Searching for optimal settings for model: openai-community_-_gpt2-xl
+2025-07-04 10:50:33,065 - src.settings - INFO - Mapped 'openai-community_-_gpt2-xl' to 'openai-community/gpt2-xl'
+2025-07-04 10:50:33,191 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--openai-community--gpt2-xl/snapshots/15ea56dee5df4983c59b2538573817e1667135e2/generation_config.json
+2025-07-04 10:50:33,191 - src.settings - INFO - Extracted generation settings: {}
+2025-07-04 10:50:33,299 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--openai-community--gpt2-xl/snapshots/15ea56dee5df4983c59b2538573817e1667135e2/config.json
+2025-07-04 10:50:33,299 - src.settings - INFO - Extracted config settings: {'activation_function': 'gelu_new', 'architectures': ['GPT2LMHeadModel'], 'attn_pdrop': 0.1, 'bos_token_id': 50256, 'embd_pdrop': 0.1, 'eos_token_id': 50256, 'initializer_range': 0.02, 'layer_norm_epsilon': 1e-05, 'model_type': 'gpt2', 'n_ctx': 1024, 'n_embd': 1600, 'n_head': 25, 'n_layer': 48, 'n_positions': 1024, 'output_past': True, 'resid_pdrop': 0.1, 'summary_activation': None, 'summary_first_dropout': 0.1, 'summary_proj_to_labels': True, 'summary_type': 'cls_index', 'summary_use_proj': True, 'task_specific_params': {'text-generation': {'do_sample': True, 'max_length': 50}}, 'vocab_size': 50257}
+2025-07-04 10:50:33,299 - src.settings - INFO - Found optimal settings for openai-community_-_gpt2-xl: {'model_type': 'gpt2', 'vocab_size': 50257}
+2025-07-04 10:50:33,299 - __main__ - INFO - Found potential optimal settings for openai-community_-_gpt2-xl: {'model_type': 'gpt2', 'vocab_size': 50257}
+2025-07-04 10:50:33,299 - src.models - INFO - Saving profile for model openai-community_-_gpt2-xl to profiles/openai-community_-_gpt2-xl.json
+2025-07-04 10:50:33,300 - __main__ - INFO - Processing model: qwen2.5-coder-3b-instruct
+2025-07-04 10:50:33,300 - src.settings - INFO - Searching for optimal settings for model: qwen2.5-coder-3b-instruct
+2025-07-04 10:50:33,300 - src.settings - INFO - Mapped 'qwen2.5-coder-3b-instruct' to 'Qwen/Qwen2.5-Coder-3B-Instruct'
+2025-07-04 10:50:33,399 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5/generation_config.json
+2025-07-04 10:50:33,400 - src.settings - INFO - Extracted generation settings: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05}
+2025-07-04 10:50:33,534 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5/config.json
+2025-07-04 10:50:33,535 - src.settings - INFO - Extracted config settings: {'architectures': ['Qwen2ForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 151643, 'eos_token_id': 151645, 'hidden_act': 'silu', 'hidden_size': 2048, 'initializer_range': 0.02, 'intermediate_size': 11008, 'max_position_embeddings': 32768, 'max_window_layers': 36, 'model_type': 'qwen2', 'num_attention_heads': 16, 'num_hidden_layers': 36, 'num_key_value_heads': 2, 'rms_norm_eps': 1e-06, 'rope_theta': 1000000.0, 'sliding_window': 32768, 'tie_word_embeddings': True, 'torch_dtype': 'bfloat16', 'transformers_version': '4.43.1', 'use_cache': True, 'use_sliding_window': False, 'vocab_size': 151936}
+2025-07-04 10:50:33,535 - src.settings - INFO - Found optimal settings for qwen2.5-coder-3b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:50:33,535 - __main__ - INFO - Found potential optimal settings for qwen2.5-coder-3b-instruct: {'temperature': 0.7, 'top_p': 0.8, 'top_k': 20, 'repetition_penalty': 1.05, 'max_context_length': 32768, 'model_type': 'qwen2', 'vocab_size': 151936}
+2025-07-04 10:50:33,535 - src.models - INFO - Saving profile for model qwen2.5-coder-3b-instruct to profiles/qwen2.5-coder-3b-instruct.json
+2025-07-04 10:50:33,536 - __main__ - INFO - Processing model: codellama-7b-instruct
+2025-07-04 10:50:33,536 - src.settings - INFO - Searching for optimal settings for model: codellama-7b-instruct
+2025-07-04 10:50:33,536 - src.settings - INFO - Mapped 'codellama-7b-instruct' to 'codellama/CodeLlama-7b-Instruct-hf'
+2025-07-04 10:50:33,631 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--codellama--CodeLlama-7b-Instruct-hf/snapshots/22cb240e0292b0b5ab4c17ccd97aa3a2f799cbed/generation_config.json
+2025-07-04 10:50:33,631 - src.settings - INFO - Extracted generation settings: {}
+2025-07-04 10:50:33,732 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--codellama--CodeLlama-7b-Instruct-hf/snapshots/22cb240e0292b0b5ab4c17ccd97aa3a2f799cbed/config.json
+2025-07-04 10:50:33,732 - src.settings - INFO - Extracted config settings: {'_name_or_path': 'codellama/CodeLlama-7b-Instruct-hf', 'architectures': ['LlamaForCausalLM'], 'bos_token_id': 1, 'eos_token_id': 2, 'hidden_act': 'silu', 'hidden_size': 4096, 'initializer_range': 0.02, 'intermediate_size': 11008, 'max_position_embeddings': 16384, 'model_type': 'llama', 'num_attention_heads': 32, 'num_hidden_layers': 32, 'num_key_value_heads': 32, 'pretraining_tp': 1, 'rms_norm_eps': 1e-05, 'rope_scaling': None, 'rope_theta': 1000000, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.33.0.dev0', 'use_cache': True, 'vocab_size': 32016}
+2025-07-04 10:50:33,732 - src.settings - INFO - Found optimal settings for codellama-7b-instruct: {'max_context_length': 16384, 'model_type': 'llama', 'vocab_size': 32016}
+2025-07-04 10:50:33,732 - __main__ - INFO - Found potential optimal settings for codellama-7b-instruct: {'max_context_length': 16384, 'model_type': 'llama', 'vocab_size': 32016}
+2025-07-04 10:50:33,732 - src.models - INFO - Saving profile for model codellama-7b-instruct to profiles/codellama-7b-instruct.json
+2025-07-04 10:50:33,732 - __main__ - INFO - Processing model: stable-code-instruct-3b
+2025-07-04 10:50:33,732 - src.settings - INFO - Searching for optimal settings for model: stable-code-instruct-3b
+2025-07-04 10:50:33,732 - src.settings - INFO - Mapped 'stable-code-instruct-3b' to 'stabilityai/stable-code-instruct-3b'
+2025-07-04 10:50:33,827 - src.settings - INFO - Found generation_config.json at /home/heratiki/.cache/huggingface/hub/models--stabilityai--stable-code-instruct-3b/snapshots/20e21f0e817b72499c8585d86a139c0fd011adba/generation_config.json
+2025-07-04 10:50:33,827 - src.settings - INFO - Extracted generation settings: {}
+2025-07-04 10:50:33,945 - src.settings - INFO - Found config.json at /home/heratiki/.cache/huggingface/hub/models--stabilityai--stable-code-instruct-3b/snapshots/20e21f0e817b72499c8585d86a139c0fd011adba/config.json
+2025-07-04 10:50:33,945 - src.settings - INFO - Extracted config settings: {'_name_or_path': 'stabilityai/stable-code-instruct-3b', 'architectures': ['StableLmForCausalLM'], 'attention_dropout': 0.0, 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'silu', 'hidden_dropout': 0.0, 'hidden_size': 2560, 'initializer_range': 0.02, 'intermediate_size': 6912, 'layer_norm_eps': 1e-05, 'max_position_embeddings': 16384, 'model_type': 'stablelm', 'num_attention_heads': 32, 'num_hidden_layers': 32, 'num_key_value_heads': 32, 'partial_rotary_factor': 0.25, 'rope_scaling': None, 'rope_theta': 1000000, 'tie_word_embeddings': False, 'torch_dtype': 'bfloat16', 'transformers_version': '4.38.2', 'use_cache': False, 'use_qkv_bias': False, 'vocab_size': 50304}
+2025-07-04 10:50:33,945 - src.settings - INFO - Found optimal settings for stable-code-instruct-3b: {'max_context_length': 16384, 'model_type': 'stablelm', 'vocab_size': 50304}
+2025-07-04 10:50:33,945 - __main__ - INFO - Found potential optimal settings for stable-code-instruct-3b: {'max_context_length': 16384, 'model_type': 'stablelm', 'vocab_size': 50304}
+2025-07-04 10:50:33,946 - src.models - INFO - Saving profile for model stable-code-instruct-3b to profiles/stable-code-instruct-3b.json
+2025-07-04 10:50:33,946 - __main__ - INFO - Settings search complete. Profiles saved.
+2025-07-04 10:50:33,946 - __main__ - INFO - Next steps: Implement Rich UI and settings application logic.
