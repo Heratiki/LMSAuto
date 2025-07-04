@@ -40,3 +40,7 @@ logs/
 WORKSPACE-LICENSE
 WORKSPACE-README.md
 CLAUDE.md
+*.orig
+*.rej
+*.diff
+.backup
