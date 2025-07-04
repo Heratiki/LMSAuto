@@ -11,9 +11,12 @@ from .settings import SettingsFetcher
 setup_logging()
 logger = logging.getLogger(__name__)
 
+
 def main():
     """Main function to run the LMSAuto tool."""
-    parser = argparse.ArgumentParser(description="LM Studio Autonomous Model Settings Optimizer")
+    parser = argparse.ArgumentParser(
+        description="LM Studio Autonomous Model Settings Optimizer"
+    )
     parser.add_argument(
         "--lmstudio-url",
         default="http://localhost:1234",
@@ -30,7 +33,8 @@ def main():
         choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
         help="Set the logging level."
     )
-    # Add more arguments as needed (e.g., specific model to optimize, action to perform)
+    # Add more arguments as needed (e.g., specific model to optimize,
+    # action to perform)
 
     args = parser.parse_args()
 
@@ -52,7 +56,9 @@ def main():
             logger.warning("No models discovered via LM Studio API. Exiting.")
             # TODO: Add Rich UI feedback here
             return
-        logger.info(f"Discovered models: {[m['name'] for m in available_models]}")
+        logger.info(
+            f"Discovered models: {[m['name'] for m in available_models]}"
+        )
     except Exception as e:
         logger.error(f"Failed to discover models from LM Studio: {e}")
         # TODO: Add Rich UI feedback here
@@ -61,7 +67,8 @@ def main():
     # 2. For each model, try to find optimal settings and save profile
     for model_info in available_models:
         model_name = model_info.get("name")
-        model_path = model_info.get("path") # LM Studio might provide a path or identifier
+        model_path = model_info.get("path")  # LM Studio might provide
+        # a path or identifier
 
         if not model_name:
             logger.warning(f"Skipping model with missing name: {model_info}")
@@ -72,23 +79,33 @@ def main():
         # Use model name or path for searching Hugging Face
         # Prioritize path if available, otherwise use name (might need mapping)
         hf_identifier = model_path if model_path else model_name
-        # TODO: Refine how hf_identifier is determined (might need user input or mapping logic)
+        # TODO: Refine how hf_identifier is determined (might need user
+        # input or mapping logic)
 
-        optimal_settings = settings_fetcher.find_optimal_settings(hf_identifier)
+        optimal_settings = settings_fetcher.find_optimal_settings(
+            hf_identifier
+        )
 
         if optimal_settings:
-            logger.info(f"Found potential optimal settings for {model_name}: {optimal_settings}")
+            logger.info(
+                f"Found potential optimal settings for {model_name}: "
+                f"{optimal_settings}"
+            )
             # TODO: Validate settings format before saving?
             profile_manager.save_profile(model_name, optimal_settings)
         else:
             logger.warning(f"Could not find optimal settings for {model_name}")
 
-    # 3. TODO: Implement Rich UI for user interaction (selecting profiles, applying settings)
+    # 3. TODO: Implement Rich UI for user interaction (selecting
+    # profiles, applying settings)
     logger.info("Settings search complete. Profiles saved.")
-    logger.info("Next steps: Implement Rich UI and settings application logic.")
+    logger.info(
+        "Next steps: Implement Rich UI and settings application logic."
+    )
 
     # Example: Load and print a profile
-    # test_model = "ExampleModel" # Replace with an actual model name if a profile was saved
+    # test_model = "ExampleModel"  # Replace with an actual model name
+    # if a profile was saved
     # loaded_profile = profile_manager.load_profile(test_model)
     # if loaded_profile:
     #     logger.info(f"Loaded profile for {test_model}: {loaded_profile}")
