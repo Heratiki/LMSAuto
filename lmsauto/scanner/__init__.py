@@ -2,8 +2,9 @@
 
 import abc
 import logging
+import requests
 from pathlib import Path
-from typing import List, Optional # Removed unused 'Dict'
+from typing import List, Optional, Dict
 
 # Direct import - removed the try/except block
 from lmsauto.shared.context import SharedContext, ModelInfo
@@ -31,32 +32,101 @@ class LMStudioScanner(PlatformScanner):
 
     PLATFORM_NAME = "LM Studio"
 
-    def __init__(self, base_path: Optional[str] = None):
+    def __init__(self, base_path: Optional[str] = None, api_url: str = "http://localhost:1234"):
         """
         Initializes the LMStudioScanner.
 
         Args:
             base_path (Optional[str]): The base directory where LM Studio models are stored.
                                        Defaults to ~/.cache/lm-studio/models if None.
+            api_url (str): The LM Studio API URL. Defaults to http://localhost:1234.
         """
         if base_path:
             self.models_base_path = Path(base_path)
         else:
             # Default path for LM Studio models (adjust if necessary for different OS)
             self.models_base_path = Path.home() / ".cache" / "lm-studio" / "models"
-        logger.info(f"LM Studio scanner initialized. Model path: {self.models_base_path}")
+        
+        self.api_url = api_url
+        logger.info(f"LM Studio scanner initialized. Model path: {self.models_base_path}, API URL: {self.api_url}")
 
     def discover_models(self) -> List[ModelInfo]:
         """
-        Discovers models stored by LM Studio.
+        Discovers models available in LM Studio via API and file system.
 
-        Assumes models are stored in subdirectories under the models_base_path.
-        The subdirectory structure might be like: publisher/repo/model.gguf
+        First tries to discover models via the LM Studio API, then falls back to
+        file system scanning if the API is not available.
 
         Returns:
             List[ModelInfo]: A list of discovered LM Studio models.
         """
         discovered_models: List[ModelInfo] = []
+        
+        # First try API discovery
+        api_models = self._discover_models_via_api()
+        if api_models:
+            discovered_models.extend(api_models)
+            logger.info(f"Discovered {len(api_models)} models via LM Studio API")
+        else:
+            # Fall back to file system discovery
+            logger.info("API discovery failed, falling back to file system scanning")
+            fs_models = self._discover_models_via_filesystem()
+            discovered_models.extend(fs_models)
+            logger.info(f"Discovered {len(fs_models)} models via file system")
+        
+        return discovered_models
+    
+    def _discover_models_via_api(self) -> List[ModelInfo]:
+        """
+        Discovers models via the LM Studio API.
+        
+        Returns:
+            List[ModelInfo]: A list of models discovered via API.
+        """
+        try:
+            logger.debug(f"Attempting to discover models via API at {self.api_url}")
+            response = requests.get(f"{self.api_url}/v1/models", timeout=10)
+            response.raise_for_status()
+            
+            data = response.json()
+            models = []
+            
+            for model_data in data.get("data", []):
+                model_info = ModelInfo(
+                    name=model_data.get("id", "unknown"),
+                    path=model_data.get("id", "unknown"),  # API doesn't provide file path
+                    platform=self.PLATFORM_NAME,
+                    metadata={
+                        "type": model_data.get("type", "unknown"),
+                        "state": model_data.get("state", "unknown"),
+                        "max_context_length": model_data.get("max_context_length", 0),
+                        "quantization": model_data.get("quantization", "unknown"),
+                        "arch": model_data.get("arch", "unknown"),
+                        "publisher": model_data.get("publisher", "unknown"),
+                        "source": "api"
+                    }
+                )
+                models.append(model_info)
+                logger.debug(f"Discovered model via API: {model_info.name}")
+            
+            return models
+            
+        except requests.exceptions.RequestException as e:
+            logger.debug(f"Failed to connect to LM Studio API at {self.api_url}: {e}")
+            return []
+        except Exception as e:
+            logger.error(f"Error parsing LM Studio API response: {e}")
+            return []
+    
+    def _discover_models_via_filesystem(self) -> List[ModelInfo]:
+        """
+        Discovers models by scanning the file system.
+        
+        Returns:
+            List[ModelInfo]: A list of models discovered via file system.
+        """
+        discovered_models: List[ModelInfo] = []
+        
         if not self.models_base_path.is_dir():
             logger.warning(f"LM Studio model directory not found or is not a directory: {self.models_base_path}")
             return discovered_models
@@ -85,7 +155,7 @@ class LMStudioScanner(PlatformScanner):
                             name=model_name,
                             path=str(model_path.resolve()),
                             platform=self.PLATFORM_NAME,
-                            # Add other relevant metadata if discoverable
+                            metadata={"source": "filesystem"}
                         )
                         discovered_models.append(model_info)
                         logger.info(f"Discovered LM Studio model: {model_name} at {model_path}")

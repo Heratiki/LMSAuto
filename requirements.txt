@@ -2,6 +2,7 @@
 rich
 huggingface_hub
 requests
+psutil
 
 # Add other dependencies as needed, e.g.:
 # python-dotenv
