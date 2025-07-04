@@ -315,7 +315,9 @@ class PromptWizardOptimizer(BasePromptOptimizer):
     
     def get_template(self, platform: str, task_type: str) -> Optional[PromptTemplate]:
         """Get a template for a specific platform and task type."""
-        platform_templates = self.base_templates.get(platform.lower())
+        # Normalize platform name
+        platform_key = platform.lower().replace(" ", "_")
+        platform_templates = self.base_templates.get(platform_key)
         if not platform_templates:
             logger.warning(f"No templates found for platform: {platform}")
             # Fall back to a generic template if available
